@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 614,
-  "bbox_top": 0,
-  "bbox_bottom": 1107,
+  "bbox_left": 61,
+  "bbox_right": 692,
+  "bbox_top": 26,
+  "bbox_bottom": 1149,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 615,
-  "height": 1108,
+  "width": 708,
+  "height": 1156,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4d945351-2a92-4509-87e6-ba2d9ba2b821","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d945351-2a92-4509-87e6-ba2d9ba2b821","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"LayerId":{"name":"6fc21104-aec8-493e-8b1e-4ab1f24cc86c","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dogtorBones","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"resourceVersion":"1.0","name":"4d945351-2a92-4509-87e6-ba2d9ba2b821","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"be80b4b9-19de-4732-a703-924e74b3abb0","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"be80b4b9-19de-4732-a703-924e74b3abb0","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"LayerId":{"name":"978a0d07-a44b-4053-87cc-1595a1bc8444","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_dogtorBones","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"resourceVersion":"1.0","name":"be80b4b9-19de-4732-a703-924e74b3abb0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_dogtorBones","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1d6eddae-20df-4d47-a33e-cdd334a73f81","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d945351-2a92-4509-87e6-ba2d9ba2b821","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c9c5dab3-8642-4815-85c5-cb1cfef08ad5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be80b4b9-19de-4732-a703-924e74b3abb0","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6fc21104-aec8-493e-8b1e-4ab1f24cc86c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"978a0d07-a44b-4053-87cc-1595a1bc8444","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
