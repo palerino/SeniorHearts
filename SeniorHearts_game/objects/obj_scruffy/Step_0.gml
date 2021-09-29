@@ -3,7 +3,7 @@ if (place_meeting(x, y, obj_player)) {
 	
 	if(characterTextbox == noone) {
 		characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
-		characterTextbox.text = "Hello, my name is Scruffy! I'm old and stuff idk.";
+		characterTextbox.text = "Hello, my name is Scruffy! I'm old and stuff idk don't talk to me cuz I'm grumpy.";
 	}
 } else {
 	if(characterTextbox != noone) {

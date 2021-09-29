@@ -3,6 +3,7 @@
     {"id":{"name":"spr_dogtorBones","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"order":2,},
     {"id":{"name":"mapBGTemp","path":"sprites/mapBGTemp/mapBGTemp.yy",},"order":3,},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":0,},
+    {"id":{"name":"dialogueFont","path":"fonts/dialogueFont/dialogueFont.yy",},"order":0,},
     {"id":{"name":"scr_approach","path":"scripts/scr_approach/scr_approach.yy",},"order":1,},
     {"id":{"name":"spr_textboxTemp","path":"sprites/spr_textboxTemp/spr_textboxTemp.yy",},"order":5,},
     {"id":{"name":"scr_getInput","path":"scripts/scr_getInput/scr_getInput.yy",},"order":0,},
