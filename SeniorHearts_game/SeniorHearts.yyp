@@ -1,8 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"spr_dogtorBones","path":"sprites/spr_dogtorBones/spr_dogtorBones.yy",},"order":2,},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":0,},
     {"id":{"name":"scr_approach","path":"scripts/scr_approach/scr_approach.yy",},"order":1,},
     {"id":{"name":"scr_getInput","path":"scripts/scr_getInput/scr_getInput.yy",},"order":0,},
+    {"id":{"name":"obj_scruffy","path":"objects/obj_scruffy/obj_scruffy.yy",},"order":1,},
+    {"id":{"name":"spr_scruffy","path":"sprites/spr_scruffy/spr_scruffy.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

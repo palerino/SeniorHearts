@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dogtorBones",
-    "path": "sprites/spr_dogtorBones/spr_dogtorBones.yy",
+    "name": "spr_scruffy",
+    "path": "sprites/spr_scruffy/spr_scruffy.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_scruffy",
   "tags": [],
   "resourceType": "GMObject",
 }
