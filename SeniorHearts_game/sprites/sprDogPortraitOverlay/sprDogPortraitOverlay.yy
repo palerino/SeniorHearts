@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 1199,
-  "bbox_top": 0,
-  "bbox_bottom": 1199,
+  "bbox_left": 160,
+  "bbox_right": 526,
+  "bbox_top": 458,
+  "bbox_bottom": 540,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1200,
-  "height": 1200,
+  "width": 664,
+  "height": 579,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3805da93-086b-4961-ab4b-5c4680e65212","path":"sprites/mapBGTemp/mapBGTemp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3805da93-086b-4961-ab4b-5c4680e65212","path":"sprites/mapBGTemp/mapBGTemp.yy",},"LayerId":{"name":"164e02ea-a40b-4537-bcb1-b5b7efd7325c","path":"sprites/mapBGTemp/mapBGTemp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"mapBGTemp","path":"sprites/mapBGTemp/mapBGTemp.yy",},"resourceVersion":"1.0","name":"3805da93-086b-4961-ab4b-5c4680e65212","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cdc5d389-acd2-4681-aa50-18f28f3bdeca","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cdc5d389-acd2-4681-aa50-18f28f3bdeca","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},"LayerId":{"name":"7aaab774-ef18-41b6-b521-d41624f104d5","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogPortraitOverlay","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},"resourceVersion":"1.0","name":"cdc5d389-acd2-4681-aa50-18f28f3bdeca","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"mapBGTemp","path":"sprites/mapBGTemp/mapBGTemp.yy",},
+    "spriteId": {"name":"sprDogPortraitOverlay","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9fe5c6c5-ae16-4a3c-929a-c211e7229bc8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3805da93-086b-4961-ab4b-5c4680e65212","path":"sprites/mapBGTemp/mapBGTemp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f9c4c613-12bf-4468-9377-c0998a9806de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cdc5d389-acd2-4681-aa50-18f28f3bdeca","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"mapBGTemp","path":"sprites/mapBGTemp/mapBGTemp.yy",},
+    "parent": {"name":"sprDogPortraitOverlay","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},
     "resourceVersion": "1.3",
-    "name": "mapBGTemp",
+    "name": "sprDogPortraitOverlay",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"164e02ea-a40b-4537-bcb1-b5b7efd7325c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7aaab774-ef18-41b6-b521-d41624f104d5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/TempAssets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mapBGTemp",
+  "name": "sprDogPortraitOverlay",
   "tags": [],
   "resourceType": "GMSprite",
 }

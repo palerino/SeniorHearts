@@ -1,5 +1,5 @@
 /// @description Insert description here
-textbox = spr_textboxTemp;
+textbox = sprTextboxTemp;
 text = "Ruh roh, this is a test! A test with lots of words, 'cuz text wrapping is cool. All my homies LOVE text wrapping!";
 
 boxWidth = sprite_get_width(textbox);
