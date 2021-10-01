@@ -1,9 +1,13 @@
 /// @description Insert description here
 if (place_meeting(x, y, objPlayer)) {
 	
-	if(characterTextbox == noone) {
-		characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
-		characterTextbox.text = "Hello, my name is Scruffy! I'm old and stuff idk don't talk to me cuz I'm grumpy.";
+	//Create a textbox if it hasn't been created yet
+	if(keyboard_check_pressed(vk_space)) {
+		if(characterTextbox == noone) {
+			characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
+			characterTextbox.text = myText;
+			characterTextbox.creator = self;
+		}		
 	}
 } else {
 	if(characterTextbox != noone) {
