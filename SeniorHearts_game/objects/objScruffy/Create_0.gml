@@ -1,11 +1,10 @@
-//temporary scaling
-//image_xscale *= 0.2;
-//image_yscale *= 0.2;
+/// @description
+event_inherited();
+characterName = "Scruffy";
+//characterTextbox = noone;
 
-characterTextbox = noone;
-
-myText[0] = "Hello, my name is Scruffy!";
-myText[1] = "I am the silver fox on the prowl.";
-myText[2] = "Bark bark bark BARK BARK BARK BARK.";
-myText[3] = "Bow wow wow wow...";
-myText[ 4] = "Arf! :)";
+firstDialogue[0] = "Hello, my name is Scruffy!";
+firstDialogue[1] = "I am the silver fox on the prowl.";
+firstDialogue[2] = "Bark bark bark BARK BARK BARK BARK.";
+firstDialogue[3] = "Bow wow wow wow...";
+firstDialogue[4] = "Arf! :)";

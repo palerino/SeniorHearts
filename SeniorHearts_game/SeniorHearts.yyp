@@ -3,6 +3,7 @@
     {"id":{"name":"sprDogPortrait","path":"sprites/sprDogPortrait/sprDogPortrait.yy",},"order":6,},
     {"id":{"name":"sprGreenBG","path":"sprites/sprGreenBG/sprGreenBG.yy",},"order":8,},
     {"id":{"name":"sprDogtorBones","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"order":1,},
+    {"id":{"name":"objParentDialogueChar","path":"objects/objParentDialogueChar/objParentDialogueChar.yy",},"order":4,},
     {"id":{"name":"titleScreen","path":"sprites/titleScreen/titleScreen.yy",},"order":5,},
     {"id":{"name":"mapBGTemp","path":"sprites/mapBGTemp/mapBGTemp.yy",},"order":0,},
     {"id":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},"order":3,},
