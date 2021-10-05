@@ -17,6 +17,7 @@
     {"id":{"name":"objTextbox","path":"objects/objTextbox/objTextbox.yy",},"order":2,},
     {"id":{"name":"sprDogPortraitOverlay","path":"sprites/sprDogPortraitOverlay/sprDogPortraitOverlay.yy",},"order":7,},
     {"id":{"name":"objScruffy","path":"objects/objScruffy/objScruffy.yy",},"order":1,},
+    {"id":{"name":"hanginOnTheLowGround","path":"sounds/hanginOnTheLowGround/hanginOnTheLowGround.yy",},"order":0,},
     {"id":{"name":"sprScruffy","path":"sprites/sprScruffy/sprScruffy.yy",},"order":2,},
     {"id":{"name":"sprYellowBG","path":"sprites/sprYellowBG/sprYellowBG.yy",},"order":9,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},

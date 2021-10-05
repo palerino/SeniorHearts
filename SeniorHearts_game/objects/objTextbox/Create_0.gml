@@ -1,5 +1,7 @@
 /// @description Insert description here
 textbox = sprTextboxTemp;
+portrait = noone;
+portraitOverhang = noone;
 page = 0;
 charCount = 0;
 creator = noone;
@@ -18,3 +20,5 @@ boxHeight = sprite_get_height(textbox) - (2 * yBuffer);
 
 xTextbox = 100; //change to global variable later instead
 yTextbox = 900; //change to global variable later instead
+xPortrait = 100;
+yPortrait = 420;

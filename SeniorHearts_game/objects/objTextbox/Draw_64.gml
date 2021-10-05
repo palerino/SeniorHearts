@@ -1,4 +1,10 @@
 /// @description Insert description here
+
+//Draw the dog portrait first, assuming there is one
+if (portrait != noone) {
+	draw_sprite(portrait, 0, xPortrait, yPortrait);
+}
+
 //Draw Textbox
 draw_sprite(textbox, 0, xTextbox, yTextbox);
 
@@ -12,3 +18,8 @@ draw_text(xTextbox, yTextbox + yBuffer, name);
 //draw the dialogue
 textPart = string_copy(text[page], 1, charCount);
 draw_text_ext(xTextbox + xBuffer, yTextbox + yBuffer + stringHeight, textPart, stringHeight, boxWidth)
+
+//Draw the top overhang part of the dog portrait
+if (portraitOverhang != noone) {
+	draw_sprite(portraitOverhang, 0, xPortrait, yPortrait-20);
+}

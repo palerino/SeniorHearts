@@ -1,6 +1,8 @@
 /// @description
 event_inherited();
 characterName = "Scruffy";
+characterPortrait = sprDogPortrait;
+characterOverhang = sprDogPortraitOverlay;
 //characterTextbox = noone;
 
 firstDialogue[0] = "Hello, my name is Scruffy!";

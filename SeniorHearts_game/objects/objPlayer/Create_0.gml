@@ -11,4 +11,5 @@ accel = 0.3;
 hSpd = 0;
 vSpd = 0;
 
-
+//Play background music, follows the main character around and loops
+audio_play_sound(hanginOnTheLowGround, 1, true);

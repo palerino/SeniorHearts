@@ -6,7 +6,9 @@ if (place_meeting(x, y, objPlayer)) {
 			characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
 			characterTextbox.text = firstDialogue;
 			characterTextbox.creator = self;
+			characterTextbox.portrait = characterPortrait;
 			characterTextbox.name = characterName;
+			characterTextbox.portraitOverhang = characterOverhang;
 		}
 	}
 } else {
