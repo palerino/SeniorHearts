@@ -11,9 +11,6 @@ if ((vMove != 0) && (hMove != 0)){
 }
 
 
-//x += hMove * spd;
-//y += vMove* spd;
-
 hSpd = scr_approach(hSpd, hMove*spd, accel);
 vSpd = scr_approach(vSpd, vMove*spd, accel);
 
