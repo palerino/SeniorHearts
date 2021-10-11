@@ -1,27 +1,26 @@
 scr_getInput(); //get player input
 
-hSpd = keyRight - keyLeft;
-vSpd = keyDown - keyUp; //inverted y axis
-
-x += hSpd * spd;
-y += vSpd * spd;
-
+hMove = (keyRight - keyLeft);
+vMove = (keyDown - keyUp); //inverted y axis
 
 //Diagonal Movement
-if ((vSpd != 0) && (hSpd != 0)){
+if ((vMove != 0) && (hMove != 0)){
 	spd = diagSpd;
 } else {
 	spd = walkSpd;
 }
 
 
-//var hMove = (keyRight - keyLeft) * spd;
-//var vMove = (keyDown - keyUp) * spd;
+//x += hMove * spd;
+//y += vMove* spd;
 
-//hSpd = scr_approach(hSpd, hMove, accel);
-//ySpd = scr_approach(vSpd, vMove, accel);
+hSpd = scr_approach(hSpd, hMove*spd, accel);
+vSpd = scr_approach(vSpd, vMove*spd, accel);
 
-//x+=hSpd;
-//y+=ySpd;
+x += hSpd;
+y += vSpd;
+
+
+
 
 
