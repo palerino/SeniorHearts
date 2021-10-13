@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sprDogPortrait","path":"sprites/sprDogPortrait/sprDogPortrait.yy",},"order":6,},
+    {"id":{"name":"wall","path":"sprites/wall/wall.yy",},"order":16,},
     {"id":{"name":"sprGreenBG","path":"sprites/sprGreenBG/sprGreenBG.yy",},"order":8,},
     {"id":{"name":"sprDogtorBones","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"order":1,},
     {"id":{"name":"objParentDialogueChar","path":"objects/objParentDialogueChar/objParentDialogueChar.yy",},"order":4,},
@@ -10,6 +11,7 @@
     {"id":{"name":"sprTest","path":"sprites/sprTest/sprTest.yy",},"order":3,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"dialogueFont","path":"fonts/dialogueFont/dialogueFont.yy",},"order":0,},
+    {"id":{"name":"parCollide","path":"objects/parCollide/parCollide.yy",},"order":6,},
     {"id":{"name":"scr_approach","path":"scripts/scr_approach/scr_approach.yy",},"order":1,},
     {"id":{"name":"sprTextboxTemp","path":"sprites/sprTextboxTemp/sprTextboxTemp.yy",},"order":4,},
     {"id":{"name":"scr_getInput","path":"scripts/scr_getInput/scr_getInput.yy",},"order":0,},

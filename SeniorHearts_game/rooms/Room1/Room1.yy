@@ -15,6 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":736.0,"resourceVersion":"1.0","name":"inst_FADC8F8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"parCollide","path":"objects/parCollide/parCollide.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":576.0,"resourceVersion":"1.0","name":"inst_5E5D29B0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"parCollide","path":"objects/parCollide/parCollide.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":640.0,"resourceVersion":"1.0","name":"inst_1799CEEC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Text","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":736.0,"resourceVersion":"1.0","name":"inst_4697A190","tags":[],"resourceType":"GMRInstance",},
@@ -31,6 +33,8 @@
     {"name":"inst_6EF4A1C9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6DB777BD","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_FADC8F8","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5E5D29B0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1799CEEC","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
