@@ -2,6 +2,8 @@
 if (place_meeting(x, y, objPlayer)) {	
 	//Create a textbox if it hasn't been created yet
 	if(keyboard_check_pressed(vk_space)) {
+		totalHearts = objGameManager.scruffyHearts;
+		
 		if(characterTextbox == noone) {
 			characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
 			

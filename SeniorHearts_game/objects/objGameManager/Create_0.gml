@@ -1,0 +1,1 @@
+scruffyHearts = 0;

@@ -2,5 +2,8 @@
 characterTextbox = noone;
 characterPortrait = noone;
 characterOverhang = noone;
+totalHearts = 0;
 characterName = "";
 firstDialogue[0] = "";
+secondDialogue[0] = "";
+second = false;

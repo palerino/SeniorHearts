@@ -19,6 +19,6 @@ boxWidth = sprite_get_width(textbox) - (2 * xBuffer);
 boxHeight = sprite_get_height(textbox) - (2 * yBuffer);
 
 xTextbox = 100; //change to global variable later instead
-yTextbox = 900; //change to global variable later instead
+yTextbox = 550; //change to global variable later instead
 xPortrait = 100;
-yPortrait = 420;
+yPortrait = 70;

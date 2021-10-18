@@ -1,3 +1,5 @@
+
+
 //temporary resizing
 image_xscale *= 0.5;
 image_yscale *= 0.5;
@@ -16,3 +18,4 @@ vMove = 0;
 
 //Play background music, follows the main character around and loops
 audio_play_sound(hanginOnTheLowGround, 1, true);
+

@@ -21,5 +21,5 @@ draw_text_ext(xTextbox + xBuffer, yTextbox + yBuffer + stringHeight, textPart, s
 
 //Draw the top overhang part of the dog portrait
 if (portraitOverhang != noone) {
-	draw_sprite(portraitOverhang, 0, xPortrait, yPortrait-20);
+	draw_sprite(portraitOverhang * 0.1, 0, xPortrait, yPortrait-20);
 }
