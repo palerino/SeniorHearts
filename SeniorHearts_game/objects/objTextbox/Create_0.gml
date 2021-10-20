@@ -1,24 +1,27 @@
 /// @description Insert description here
 textbox = sprTextboxTemp;
+heartDisplay = noone;
 portrait = noone;
 portraitOverhang = noone;
 page = 0;
 charCount = 0;
 creator = noone;
 name = noone;
-xBuffer = 10;
-yBuffer = 10;
+xBuffer = 20;
+yBuffer = 20;
 text = "This text is from objTextbox. This is default text.";
 
 //Draw Text with text wrapping along the textbox
 draw_set_font(dialogueFont);
 
 //set size and screen location of dialogue
-stringHeight = string_height(text) - 3;
-boxWidth = sprite_get_width(textbox) - (2 * xBuffer);
-boxHeight = sprite_get_height(textbox) - (2 * yBuffer);
+stringHeight = string_height(text) * 0.8;
+boxWidth = sprite_get_width(sprTextboxTemp) - (2 * xBuffer);
 
-xTextbox = 100; //change to global variable later instead
-yTextbox = 550; //change to global variable later instead
-xPortrait = 100;
-yPortrait = 70;
+xTextbox = xBuffer/2;
+yTextbox = objGameManager.gameWindowHeight - sprite_get_height(textbox) - yBuffer;
+xPortrait = xTextbox;
+yPortrait = yTextbox;
+
+xHeartDisplay = 0;
+yHeartDisplay = yTextbox - yBuffer;

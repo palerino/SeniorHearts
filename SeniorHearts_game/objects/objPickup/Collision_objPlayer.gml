@@ -7,6 +7,12 @@
 //objScruffy.totalHearts += 1;
 //objScruffy.second = true;
 
-objGameManager.scruffyHearts += 1;
 
-instance_destroy();
+/*
+
+*/
+
+if(object_get_visible(objPickup)) {
+	objGameManager.scruffyHearts += 1;
+	instance_destroy();
+}

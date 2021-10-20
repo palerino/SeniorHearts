@@ -6,4 +6,8 @@ totalHearts = 0;
 characterName = "";
 firstDialogue[0] = "";
 secondDialogue[0] = "";
-second = false;
+thirdDialogue[0] = "";
+
+//temporary resizing
+image_xscale *= 0.7;
+image_yscale *= 0.7;
