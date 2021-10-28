@@ -15,6 +15,9 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objGameManager","path":"objects/objGameManager/objGameManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":160.0,"resourceVersion":"1.0","name":"inst_410ECEEA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objBegory","path":"objects/objBegory/objBegory.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":928.0,"resourceVersion":"1.0","name":"inst_3E45FBEC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDogRoss","path":"objects/objDogRoss/objDogRoss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":832.0,"resourceVersion":"1.0","name":"inst_72739C9F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDogMarley","path":"objects/objDogMarley/objDogMarley.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":512.0,"resourceVersion":"1.0","name":"inst_2BDCE00","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"GameManager","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":true,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":736.0,"resourceVersion":"1.0","name":"inst_FADC8F8","tags":[],"resourceType":"GMRInstance",},
@@ -435,6 +438,9 @@
     {"name":"inst_76ED6A43","path":"rooms/Entrance/Entrance.yy",},
     {"name":"inst_56388876","path":"rooms/Entrance/Entrance.yy",},
     {"name":"inst_6D6502DD","path":"rooms/Entrance/Entrance.yy",},
+    {"name":"inst_3E45FBEC","path":"rooms/Entrance/Entrance.yy",},
+    {"name":"inst_72739C9F","path":"rooms/Entrance/Entrance.yy",},
+    {"name":"inst_2BDCE00","path":"rooms/Entrance/Entrance.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

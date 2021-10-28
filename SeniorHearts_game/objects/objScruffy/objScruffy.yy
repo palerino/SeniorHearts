@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprScruffy",
-    "path": "sprites/sprScruffy/sprScruffy.yy",
+    "name": "sprScruffyWalk",
+    "path": "sprites/sprScruffyWalk/sprScruffyWalk.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DogObjects",
+    "path": "folders/Objects/DogObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "objScruffy",

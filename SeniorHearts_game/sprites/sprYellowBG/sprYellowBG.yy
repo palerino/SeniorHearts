@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "TempAssets",
-    "path": "folders/Sprites/TempAssets.yy",
+    "name": "Defunct",
+    "path": "folders/Sprites/TempAssets/Defunct.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprYellowBG",

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DogObjects",
+    "path": "folders/Objects/DogObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "objParentDialogueChar",
