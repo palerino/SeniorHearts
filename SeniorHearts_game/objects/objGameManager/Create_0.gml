@@ -11,3 +11,7 @@ scruffyHearts = 0;
 begoryHearts = 0;
 dogRossHearts = 0;
 dogMarleyHearts = 0;
+
+
+// Scruffy-specific event variables
+scruffyKibbleFound = false;

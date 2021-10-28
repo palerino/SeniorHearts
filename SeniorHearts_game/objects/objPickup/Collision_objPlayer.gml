@@ -14,5 +14,6 @@
 
 if(object_get_visible(objPickup)) {
 	objGameManager.scruffyHearts += 1;
+	objGameManager.scruffyKibbleFound = true;
 	instance_destroy();
 }

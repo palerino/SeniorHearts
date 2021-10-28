@@ -6,5 +6,5 @@ if(talkedWithScruffy && talkedWithBegory && talkedWithDogRoss && talkedWithDogMa
 	begoryHearts = 1;
 	dogRossHearts = 1;
 	dogMarleyHearts = 1;
-	introductionPhase = false; //prevents this if-statement from re-running
+	introductionPhase = false; //prevents this if-statement from re-running and setting hearts falsely
 }
