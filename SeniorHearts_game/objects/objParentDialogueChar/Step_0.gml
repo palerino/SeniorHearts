@@ -1,5 +1,5 @@
 /// @description Insert description here
-if (place_meeting(x, y, objPlayer)) {	
+if (place_meeting(x+2, y+2, objPlayer)) {	
 	//Create a textbox if it hasn't been created yet
 	if(keyboard_check_pressed(vk_space)) {
 		
