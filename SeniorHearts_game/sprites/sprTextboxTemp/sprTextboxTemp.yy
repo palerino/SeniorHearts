@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "TempAssets",
-    "path": "folders/Sprites/TempAssets.yy",
+    "name": "UISprites",
+    "path": "folders/Sprites/UISprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprTextboxTemp",

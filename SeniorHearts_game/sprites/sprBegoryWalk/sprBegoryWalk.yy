@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "TempAssets",
-    "path": "folders/Sprites/TempAssets.yy",
+    "name": "CharacterSprites",
+    "path": "folders/Sprites/CharacterSprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBegoryWalk",
