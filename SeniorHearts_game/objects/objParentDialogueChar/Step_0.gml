@@ -17,17 +17,19 @@ if (scr_isNear(objPlayer)) {
 			if(totalHearts == 2 || totalHearts > 2) {
 				characterTextbox.text = thirdDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay3;
+				characterTextbox.portrait = thirdPortrait;
 
 			} else if (totalHearts == 1) {
 				characterTextbox.text = secondDialogue;			
 				characterTextbox.heartDisplay = sprHeartDisplay2;
+				characterTextbox.portrait = secondPortrait;
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;
+				characterTextbox.portrait = firstPortrait;
 			}
 			
 			characterTextbox.creator = self;
-			characterTextbox.portrait = characterPortrait;
 			characterTextbox.name = characterName;
 			characterTextbox.portraitOverhang = characterOverhang;
 		}

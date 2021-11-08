@@ -1,7 +1,7 @@
 /// @description Insert description here
 textbox = sprTextboxTemp;
 heartDisplay = noone;
-portrait = noone;
+portrait = noone; //this should be set to an array of sprites at some point
 portraitOverhang = noone;
 page = 0;
 charCount = 0;

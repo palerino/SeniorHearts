@@ -1,4 +1,4 @@
-
+portrait = sprDogPortrait;
 
 //temporary resizing
 image_xscale *= 0.5;

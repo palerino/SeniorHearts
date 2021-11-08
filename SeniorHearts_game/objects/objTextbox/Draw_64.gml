@@ -2,10 +2,10 @@
 
 //Draw the dog portrait before the textbox, assuming there is one
 if (portrait != noone) {
-	draw_sprite(portrait, 0, xPortrait, yPortrait);
+	draw_sprite(portrait[page], 0, xPortrait, yPortrait);
 	
 	//Draw heart display
-	xHeartDisplay = sprite_get_width(portrait) + xPortrait + xBuffer;
+	xHeartDisplay = sprite_get_width(portrait[page]) + xPortrait + xBuffer;
 	draw_sprite(heartDisplay, 0, xHeartDisplay, yHeartDisplay);
 }
 
