@@ -3,10 +3,10 @@ scr_getInput(); //get player input
 hMove = (keyRight - keyLeft);
 vMove = (keyDown - keyUp); //inverted y axis
 
-
 //Diagonal Movement
 if ((vMove != 0) && (hMove != 0)){
 	spd = diagSpd;
+	
 } else {
 	spd = walkSpd;
 }
@@ -33,5 +33,3 @@ if (place_meeting(x, y + vSpd, parCollide)){
 
 x += hSpd;
 y += vSpd;
-
-

@@ -6,7 +6,7 @@ event_inherited();
 
 characterName = "Begory";
 characterPortrait = sprBegoryPortrait;
-characterOverhang = sprDogPortraitOverlay;
+characterOverhang = sprDrBonesPortraitO;
 totalHearts = 0;
 
 firstDialogue[0] = "I see that you're back.";

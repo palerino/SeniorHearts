@@ -19,5 +19,5 @@ fourthPortrait[0]= noone;
 fifthPortrait[0]= noone;
 
 //temporary resizing
-image_xscale *= 0.7;
-image_yscale *= 0.7;
+//image_xscale *= 0.7;
+//image_yscale *= 0.7;

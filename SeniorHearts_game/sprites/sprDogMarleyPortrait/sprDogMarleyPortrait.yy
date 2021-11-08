@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "CharacterSprites",
-    "path": "folders/Sprites/CharacterSprites.yy",
+    "name": "Portraits",
+    "path": "folders/Sprites/CharacterSprites/Portraits.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprDogMarleyPortrait",

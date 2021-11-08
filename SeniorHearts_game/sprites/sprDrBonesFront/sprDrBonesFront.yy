@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 247,
-  "bbox_top": 1,
-  "bbox_bottom": 247,
+  "bbox_left": 0,
+  "bbox_right": 249,
+  "bbox_top": 0,
+  "bbox_bottom": 249,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f03337b3-1c8f-445a-ba3f-35822440537f","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f03337b3-1c8f-445a-ba3f-35822440537f","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"LayerId":{"name":"a9a800a8-075c-4b8a-87cf-add7a07507f6","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprDogtorBones","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"resourceVersion":"1.0","name":"f03337b3-1c8f-445a-ba3f-35822440537f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8ae1a060-5e6c-4873-a935-acc0be223227","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8ae1a060-5e6c-4873-a935-acc0be223227","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},"LayerId":{"name":"6409e219-98cc-4468-b917-775e0fe71fa6","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDrBonesFront","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},"resourceVersion":"1.0","name":"8ae1a060-5e6c-4873-a935-acc0be223227","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprDogtorBones","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},
+    "spriteId": {"name":"sprDrBonesFront","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c5d1348f-808b-4c81-a081-255ea1bfb4f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f03337b3-1c8f-445a-ba3f-35822440537f","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1f2e00c5-c00c-45b1-84c7-190dfcd7e234","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ae1a060-5e6c-4873-a935-acc0be223227","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 125,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprDogtorBones","path":"sprites/sprDogtorBones/sprDogtorBones.yy",},
+    "parent": {"name":"sprDrBonesFront","path":"sprites/sprDrBonesFront/sprDrBonesFront.yy",},
     "resourceVersion": "1.3",
-    "name": "sprDogtorBones",
+    "name": "sprDrBonesFront",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9a800a8-075c-4b8a-87cf-add7a07507f6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6409e219-98cc-4468-b917-775e0fe71fa6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
@@ -97,7 +97,7 @@
     "path": "folders/Sprites/CharacterSprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprDogtorBones",
+  "name": "sprDrBonesFront",
   "tags": [],
   "resourceType": "GMSprite",
 }
