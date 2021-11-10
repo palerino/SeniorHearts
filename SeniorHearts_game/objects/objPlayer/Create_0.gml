@@ -1,3 +1,4 @@
+characterName = "Dr. Bones";
 portrait = sprDrBonesPortrait;
 portraitOverhang = sprDrBonesPortraitO
 

@@ -18,9 +18,12 @@ if (charCount < string_length(text[page])) {
 	charCount += 1; //change to determine letter speed of dialogue, 0 < n < 1 for slower and n > 1 for faster
 }
 
+if (charName != noone) {
+	//draw the name
+	draw_text(xTextbox + xBuffer/2, yTextbox + yBuffer/2, charName[page]);
+}
 
-//draw the name
-draw_text(xTextbox + xBuffer/2, yTextbox + yBuffer/2, name);
+
 
 //draw the dialogue
 textPart = string_copy(text[page], 1, charCount);

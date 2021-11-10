@@ -18,6 +18,11 @@ thirdPortrait[0]= noone;
 fourthPortrait[0]= noone;
 fifthPortrait[0]= noone;
 
+firstNames[0] = "";
+secondNames[0] = "";
+thirdNames[0] = "";
+fourthNames[0] = "";
+fifthNames[0] = "";
 //temporary resizing
 //image_xscale *= 0.7;
 //image_yscale *= 0.7;
