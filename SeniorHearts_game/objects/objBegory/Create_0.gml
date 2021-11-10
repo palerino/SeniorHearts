@@ -29,7 +29,7 @@ firstPortrait[3] = objPlayer.portrait;
 firstPortrait[4] = objPlayer.portrait;
 firstPortrait[5] = objPlayer.portrait;
 
-//To activate the next dialogue, talk with every other main dog
+////To activate the next dialogue, talk with every other main dog
 
 //Dialogue and portrait arrays for second interaction
 secondNames[0] = objPlayer.characterName;
@@ -153,3 +153,26 @@ fifthNames[0] = characterName;
 fifthNames[1] = characterName;
 fifthNames[2] = objPlayer.characterName;
 fifthNames[3] = characterName;
+
+
+////Gets adopted dialogue
+adoptedDialogue[0] = "Finally, a good family who sees how great I am to have around! I'll miss you all sometimes, minus the tiny kennel space.";
+adoptedDialogue[1] = "I can't wait to have a large yard to soak in the sun! And all the grooming I can ask for. Getting deshedded feels so nice, there is definitely not enough of it here."
+adoptedDialogue[2] = "I hope you all get to experience it one day.";
+adoptedPortrait[0] = characterPortrait;
+adoptedPortrait[1] = characterPortrait;
+adoptedPortrait[2] = characterPortrait;
+adoptedNames[0] = characterName;
+adoptedNames[1] = characterName;
+adoptedNames[2] = characterName;
+
+////Not adopted dialogue
+unadoptedDialogue[0] = "I'm glad they finally found a family to take them in.";
+unadoptedDialogue[1] = "I hope they're treated well, and by that I mean they get all the treats in the world.";
+unadoptedDialogue[2] = "They better not forget to ask for toy upgrades, too!";
+unadoptedPortrait[0] = characterPortrait;
+unadoptedPortrait[1] = characterPortrait;
+unadoptedPortrait[2] = characterPortrait;
+unadoptedNames[0] = characterName;
+unadoptedNames[1] = characterName;
+unadoptedNames[2] = characterName;
