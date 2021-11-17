@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (place_meeting(x, y, objPlayer)) {	
+if (scr_isNear(objPlayer)) {
 	if(keyboard_check_pressed(vk_space)) {
 		totalHearts = objGameManager.scruffyHearts;
 		objGameManager.talkedWithScruffy = true;
