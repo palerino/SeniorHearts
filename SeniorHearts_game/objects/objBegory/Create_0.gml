@@ -177,22 +177,19 @@ fourthDialogueOptions[5] = fourthPortrait2;
 
 fifthDialogue[0] = "You know, I came here thinking you were all just so annoying at first and wouldn't leave me alone.";
 fifthDialogue[1] = "While I still partially think that, I am grateful for the company and all you've done for me.";
-fifthDialogue[2] = "Dog Marley was able to give me some advice, and I feel like I understand myself better.";
-fifthDialogue[3] = "So, just, you've helped me out. I'm grateful.";
-fifthDialogue[4] = "Aw, Begory, that's so sweet!";
-fifthDialogue[5] = "Yeah whatever. I have to get ready for the adopters, go do something else.";
+fifthDialogue[2] = "So, just, you've helped me out. I'm grateful.";
+fifthDialogue[3] = "Aw, Begory, that's so sweet!";
+fifthDialogue[4] = "Yeah whatever. I have to get ready for the adopters, go do something else.";
 fifthPortrait[0] = characterPortrait;
 fifthPortrait[1] = characterPortrait;
 fifthPortrait[2] = characterPortrait;
-fifthPortrait[3] = characterPortrait;
-fifthPortrait[4] = objPlayer.portrait;
-fifthPortrait[5] = characterPortrait;
+fifthPortrait[3] = objPlayer.portrait;
+fifthPortrait[4] = characterPortrait;
 fifthNames[0] = characterName;
 fifthNames[1] = characterName;
 fifthNames[2] = characterName;
-fifthNames[3] = characterName;
-fifthNames[4] = objPlayer.characterName;
-fifthNames[5] = characterName;
+fifthNames[3] = objPlayer.characterName;
+fifthNames[4] = characterName;
 
 ////Gets adopted dialogue
 adoptedDialogue[0] = "Finally, a good family who sees how great I am to have around! I'll miss you all sometimes, minus the tiny kennel space.";

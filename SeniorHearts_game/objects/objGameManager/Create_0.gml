@@ -12,10 +12,11 @@ begoryHearts = 0;
 dogRossHearts = 0;
 dogMarleyHearts = 0;
 
+//Ross-specific event variables
+rossNighttimeSuppliesFound = false;
 
 // Scruffy-specific event variables
-scruffyKibbleFound = false;
-
+scruffyFoodSuppliesFound = false;
 
 //Begory-specific event variables
 begoryNailSuppliesFound = false;

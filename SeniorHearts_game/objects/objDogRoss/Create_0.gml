@@ -45,6 +45,7 @@ secondDialogue[3] = "My brain seems to be going a mile a minute, and I've been h
 secondDialogue[4] = "Ross, it sounds like you might be facing some anxiety.";
 secondDialogue[5] = "It's common to experience anxiety when in pain, especially considering your age and circumstances.";
 secondDialogue[6] = "There is, let's try this.";
+secondDialogue[7] = ["Give a Calming Coat", "Try Music Therapy"];
 secondPortrait[0] = characterPortrait;
 secondPortrait[1] = objPlayer.portrait;
 secondPortrait[2] = characterPortrait;
@@ -52,6 +53,7 @@ secondPortrait[3] = characterPortrait;
 secondPortrait[4] = objPlayer.portrait;
 secondPortrait[5] = objPlayer.portrait;
 secondPortrait[6] = objPlayer.portrait;
+secondPortrait[7] = objPlayer.portrait;
 secondNames[0] = characterName;
 secondNames[1] = objPlayer.characterName;
 secondNames[2] = characterName;
@@ -59,8 +61,9 @@ secondNames[3] = characterName;
 secondNames[4] = objPlayer.characterName;
 secondNames[5] = objPlayer.characterName;
 secondNames[6] = objPlayer.characterName;
+secondNames[7] = objPlayer.characterName;
 ////Dialogue options
-//Option 1: A Calming Coat + heart
+//Option 1: Give a Calming Coat + heart
 secondDialogue1[0] = "This feels great. I can already feel myself calming down.";
 secondNames1[0] = characterName;
 secondPortrait1[0] = characterPortrait;
@@ -69,27 +72,30 @@ secondDialogue2[0] = "Oh this is lovely. Thank you, but I still feel some anxiet
 secondPortrait2[0] = characterPortrait;
 secondNames2[0] = characterName;
 
-
 secondDialogueOptions[0] = secondDialogue1; // first option
 secondDialogueOptions[1] = secondNames1;
 secondDialogueOptions[2] = secondPortrait1;
 secondDialogueOptions[3] = secondDialogue2; //second option
 secondDialogueOptions[4] = secondNames2;
 secondDialogueOptions[5] = secondPortrait2;
+
 ////To activate next dialogue, give Calming Coat to Dog Ross from the previous options
 
 thirdDialogue[0] = "Hey Ross, is the day treating you okay?";
 thirdDialogue[1] = "Actually, I was trying to think of cooling off.";
 thirdDialogue[2] = "Being a Portuguese Water Dog and all, my fur is quite dense. With such nice weather, it can be difficult for me to stay cool like I used to.";
 thirdDialogue[3] = "That's not good. I have an idea though, what if we...";
+thirdDialogue[4] = ["Get a Kiddie Pool", "Get a Fan"];
 thirdPortrait[0] = objPlayer.portrait;
 thirdPortrait[1] = characterPortrait;
 thirdPortrait[2] = characterPortrait;
 thirdPortrait[3] = objPlayer.portrait;
+thirdPortrait[4] = objPlayer.portrait;
 thirdNames[0] = objPlayer.characterName;
 thirdNames[1] = characterName;
 thirdNames[2] = characterName;
 thirdNames[3] = objPlayer.characterName;
+thirdNames[4] = objPlayer.characterName;
 //Option 1: Get Dog Ross a Kiddie Pool + heart
 thirdDialogue1[0] = "This is wonderful! I've really been missing the water since I can't swim like I used to.";
 thirdDialogue1[1] = "Thank you, Doc! This is perfect.";
@@ -128,6 +134,9 @@ fourthNames[1] = objPlayer.characterName;
 fourthNames[2] = characterName;
 fourthNames[3] = characterName;
 fourthNames[4] = objPlayer.characterName;
+
+//To unlock the following options, find Nighttime Supplies somewhere in the map
+
 //Option 1: A New Bed + heart
 fourthDialogue1[0] = "Oh wow, this is so soft!";
 fourthDialogue1[1] = "I'm sure this will be much better, thank you.";
