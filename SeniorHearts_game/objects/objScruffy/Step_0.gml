@@ -41,7 +41,7 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.dialogueOptions = thirdDialogueOptions;
 			} else if (totalHearts == 1) {
 				
-				if(objGameManager.marleyStressRelieversFound){
+				if(objGameManager.scruffyFoodSuppliesFound){
 					characterTextbox.text = secondDialogueChoice;
 					characterTextbox.heartDisplay = sprHeartDisplay2;
 					characterTextbox.portrait = secondPortrait;

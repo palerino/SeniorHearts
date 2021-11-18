@@ -20,7 +20,7 @@ if (scr_isNear(objPlayer)) {
 
 			} else if (totalHearts == 3) {
 				
-				if(objGameManager.marleySageThingsFound){
+				if(objGameManager.rossNighttimeSuppliesFound) {
 					characterTextbox.text = fourthDialogueChoice;
 					characterTextbox.heartDisplay = sprHeartDisplay4;
 					characterTextbox.portrait = fourthPortrait;
@@ -39,20 +39,12 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.portrait = thirdPortrait;
 				characterTextbox.charName = thirdNames;
 				characterTextbox.dialogueOptions = thirdDialogueOptions;
-			} else if (totalHearts == 1) {
-				
-				if(objGameManager.marleyStressRelieversFound){
-					characterTextbox.text = secondDialogueChoice;
-					characterTextbox.heartDisplay = sprHeartDisplay2;
-					characterTextbox.portrait = secondPortrait;
-					characterTextbox.charName = secondNames;
-					characterTextbox.dialogueOptions = secondDialogueOptions;
-				} else {
-					characterTextbox.text = secondDialogue;			
-					characterTextbox.heartDisplay = sprHeartDisplay2;
-					characterTextbox.portrait = secondPortrait;
-					characterTextbox.charName = secondNames;
-				}
+			} else if (totalHearts == 1) {				
+				characterTextbox.text = secondDialogue;
+				characterTextbox.heartDisplay = sprHeartDisplay2;
+				characterTextbox.portrait = secondPortrait;
+				characterTextbox.charName = secondNames;
+				characterTextbox.dialogueOptions = secondDialogueOptions;
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;
