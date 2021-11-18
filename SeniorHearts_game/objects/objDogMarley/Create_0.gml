@@ -77,6 +77,11 @@ secondNames[8] = objPlayer.characterName;
 secondNames[9] = characterName;
 ////To activate next dialogue, find the Stress Relievers somewhere in the map
 //Option 1: Calming Treats + heart
+
+secondDialogueTest[0] = "Did you find something?";
+secondDialogueTest[1] = ["Give Calming Treats", "Give Stress Ball"];
+//secondDialogueTest[2] = "Oh thank you, Doc! You really know me! I can always count on you.";
+
 secondDialogue1[0] = "Oh thank you, Doc! You really know me! I can always count on you.";
 secondNames1[0] = characterName;
 secondPortrait1[0] = characterPortrait;
@@ -85,6 +90,13 @@ secondDialogue2[0] = "A stress ball, huh? I don't have the teeth anymore to real
 secondPortrait2[0] = characterPortrait;
 secondNames2[0] = characterName;
 
+
+secondDialogueOptions[0] = secondDialogue1; // first option
+secondDialogueOptions[1] = secondNames1;
+secondDialogueOptions[2] = secondPortrait1;
+secondDialogueOptions[3] = secondDialogue2; //second option
+secondDialogueOptions[4] = secondNames2;
+secondDialogueOptions[5] = secondPortrait2;
 ////To activate next dialogue, give Calming Treats to Dog Marley from the previous options
 
 thirdDialogue[0] = "What is up my dawg! Isn't it a great day today! The sun is shining, the birds are chirping!";

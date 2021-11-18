@@ -9,6 +9,9 @@ creator = noone;
 charName = noone;
 xBuffer = 20;
 yBuffer = 20;
+choice = 0;
+c = c_teal;
+dialogueOptions = noone;
 text = "This text is from objTextbox. This is default text.";
 
 //Draw Text with text wrapping along the textbox

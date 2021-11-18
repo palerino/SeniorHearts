@@ -35,6 +35,7 @@
     {"id":{"name":"parCollide","path":"objects/parCollide/parCollide.yy",},"order":4,},
     {"id":{"name":"objKennelRoss","path":"objects/objKennelRoss/objKennelRoss.yy",},"order":4,},
     {"id":{"name":"scr_approach","path":"scripts/scr_approach/scr_approach.yy",},"order":1,},
+    {"id":{"name":"objStressRelievers","path":"objects/objStressRelievers/objStressRelievers.yy",},"order":1,},
     {"id":{"name":"sprKennelMarley","path":"sprites/sprKennelMarley/sprKennelMarley.yy",},"order":5,},
     {"id":{"name":"sprHeartDisplay1","path":"sprites/sprHeartDisplay1/sprHeartDisplay1.yy",},"order":0,},
     {"id":{"name":"objSign","path":"objects/objSign/objSign.yy",},"order":1,},
@@ -45,7 +46,7 @@
     {"id":{"name":"sprWarp","path":"sprites/sprWarp/sprWarp.yy",},"order":6,},
     {"id":{"name":"sprMiddleMap","path":"sprites/sprMiddleMap/sprMiddleMap.yy",},"order":2,},
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":3,},
-    {"id":{"name":"objPickup","path":"objects/objPickup/objPickup.yy",},"order":6,},
+    {"id":{"name":"objPickup","path":"objects/objPickup/objPickup.yy",},"order":0,},
     {"id":{"name":"sprBegoryPortrait","path":"sprites/sprBegoryPortrait/sprBegoryPortrait.yy",},"order":0,},
     {"id":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"order":5,},
     {"id":{"name":"objKennelMarley","path":"objects/objKennelMarley/objKennelMarley.yy",},"order":3,},
@@ -133,6 +134,7 @@
     {"folderPath":"folders/Sprites/BackgroundAssets.yy","order":0,"resourceVersion":"1.0","name":"BackgroundAssets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/BackgroundObjects.yy","order":8,"resourceVersion":"1.0","name":"BackgroundObjects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/CharacterSprites/Portraits.yy","order":9,"resourceVersion":"1.0","name":"Portraits","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/PickupObjs.yy","order":13,"resourceVersion":"1.0","name":"PickupObjs","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -142,7 +144,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "SeniorHearts",

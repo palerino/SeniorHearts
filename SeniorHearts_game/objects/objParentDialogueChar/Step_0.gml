@@ -19,10 +19,18 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.portrait = thirdPortrait;
 				characterTextbox.charName = thirdNames;
 			} else if (totalHearts == 1) {
-				characterTextbox.text = secondDialogue;			
-				characterTextbox.heartDisplay = sprHeartDisplay2;
-				characterTextbox.portrait = secondPortrait;
-				characterTextbox.charName = secondNames;
+				if(objGameManager.marleyStressRelieversFound) { //second dialogue with options
+					characterTextbox.text = secondDialogueTest;
+					characterTextbox.heartDisplay = sprHeartDisplay2;
+					characterTextbox.portrait = secondPortrait;
+					characterTextbox.charName = secondNames;
+					characterTextbox.dialogueOptions = secondDialogueOptions;
+				} else { //regular second dialogue
+					characterTextbox.text = secondDialogue;			
+					characterTextbox.heartDisplay = sprHeartDisplay2;
+					characterTextbox.portrait = secondPortrait;
+					characterTextbox.charName = secondNames;
+				}
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;

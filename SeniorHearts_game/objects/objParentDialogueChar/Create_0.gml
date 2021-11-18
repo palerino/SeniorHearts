@@ -6,23 +6,46 @@ characterOverhang = noone;
 totalHearts = 0;
 characterName = "";
 
-firstDialogue[0] = "";
-secondDialogue[0] = "";
-thirdDialogue[0] = "";
-fourthDialogue[0] = "";
-fifthDialogue[0] = "";
+secondDialogueOptions = "";
 
-firstPortrait[0]= noone;
-secondPortrait[0]= noone;
-thirdPortrait[0]= noone;
-fourthPortrait[0]= noone;
-fifthPortrait[0]= noone;
+//all dialogue array options
+firstDialogue = "";
+secondDialogue = "";
+secondDialogueTest = "";
+secondDialogue1 = "";
+secondDialogue2 = "";
+thirdDialogue = "";
+thirdDialogue1 = "";
+thirdDialogue2 = "";
+fourthDialogue = "";
+fourthDialogue1 = "";
+fourthDialogue2 = "";
+fifthDialogue = "";
+adoptedDialogue = "";
+unadoptedDialogue = "";
 
-firstNames[0] = "";
-secondNames[0] = "";
-thirdNames[0] = "";
-fourthNames[0] = "";
-fifthNames[0] = "";
-//temporary resizing
-//image_xscale *= 0.7;
-//image_yscale *= 0.7;
+//all portrait array options
+firstNames = "";
+secondNames = "";
+secondNames1 = "";
+secondNames2 = "";
+thirdNames = "";
+thirdNames1 = "";
+thirdNames2 = "";
+fourthNames = "";
+fourthNames1  = "";
+fourthNames2 = "";
+fifthNames = "";
+
+//all portrait array options
+firstPortrait = noone;
+secondPortrait = noone;
+secondPortrait1 = noone;
+secondPortrait2 = noone;
+thirdPortrait = noone;
+thirdPortrait1 = noone;
+thirdPortrait2 = noone;
+fourthPortrait = noone;
+fourthPortrait1 = noone;
+fourthPortrait2 = noone;
+fifthPortrait = noone;
