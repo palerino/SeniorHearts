@@ -3,11 +3,12 @@
 
 // Inherit the parent event
 event_inherited();
-
+characterTextbox = noone;
 characterName = "Dog Ross";
 characterPortrait = sprDogRossPortrait;
 characterOverhang = sprDogPortraitOverlay;
 totalHearts = 0;
+correctChoice = false;
 
 firstDialogue[0] = "Hey Dog Ross, I came to check up on you and to bring your arthritis medication.";
 firstDialogue[1] = "Oh thank you. My old bones will appreciate it. They've really been acting up lately.";
@@ -68,6 +69,13 @@ secondDialogue2[0] = "Oh this is lovely. Thank you, but I still feel some anxiet
 secondPortrait2[0] = characterPortrait;
 secondNames2[0] = characterName;
 
+
+secondDialogueOptions[0] = secondDialogue1; // first option
+secondDialogueOptions[1] = secondNames1;
+secondDialogueOptions[2] = secondPortrait1;
+secondDialogueOptions[3] = secondDialogue2; //second option
+secondDialogueOptions[4] = secondNames2;
+secondDialogueOptions[5] = secondPortrait2;
 ////To activate next dialogue, give Calming Coat to Dog Ross from the previous options
 
 thirdDialogue[0] = "Hey Ross, is the day treating you okay?";
@@ -97,6 +105,12 @@ thirdPortrait2[1] = characterPortrait;
 thirdNames2[0] = characterName;
 thirdNames2[1] = characterName;
 
+thirdDialogueOptions[0] = thirdDialogue1; // first option
+thirdDialogueOptions[1] = thirdNames1;
+thirdDialogueOptions[2] = thirdPortrait1;
+thirdDialogueOptions[3] = thirdDialogue2; //second option
+thirdDialogueOptions[4] = thirdNames2;
+thirdDialogueOptions[5] = thirdPortrait2;
 ////To activate next dialogue, get Dog Ross a Kiddie Pool in previous event
 
 fourthDialogue[0] = "Hello, Doc. I wanted to ask you about something.";
@@ -125,6 +139,13 @@ fourthNames1[1] = characterName;
 fourthDialogue2[0] = "Sorry, Doc, I don't think this will help. I think I'll still wake up with a cramped back.";
 fourthPortrait2[0] = characterPortrait;
 fourthNames2[0] = characterName;
+
+fourthDialogueOptions[0] = fourthDialogue1; // first option
+fourthDialogueOptions[1] = fourthNames1;
+fourthDialogueOptions[2] = fourthPortrait1;
+fourthDialogueOptions[3] = fourthDialogue2; //second option
+fourthDialogueOptions[4] = fourthNames2;
+fourthDialogueOptions[5] = fourthPortrait2;
 
 ////To activate next dialogue, give A New Bed from the previous options
 

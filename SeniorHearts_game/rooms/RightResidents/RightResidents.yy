@@ -129,6 +129,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"objKennelMarley","path":"objects/objKennelMarley/objKennelMarley.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":1248.0,"resourceVersion":"1.0","name":"inst_77C35101","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":896.0,"resourceVersion":"1.0","name":"inst_25643F78","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":1152.0,"resourceVersion":"1.0","name":"inst_37952AD0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objSageThings","path":"objects/objSageThings/objSageThings.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_5665F1E3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sprRightMap","path":"sprites/sprRightMap/sprRightMap.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_9E69743","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -253,6 +254,7 @@
     {"name":"inst_77C35101","path":"rooms/RightResidents/RightResidents.yy",},
     {"name":"inst_25643F78","path":"rooms/RightResidents/RightResidents.yy",},
     {"name":"inst_37952AD0","path":"rooms/RightResidents/RightResidents.yy",},
+    {"name":"inst_5665F1E3","path":"rooms/RightResidents/RightResidents.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

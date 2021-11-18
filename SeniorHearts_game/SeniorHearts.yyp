@@ -1,9 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"objNailSupplies","path":"objects/objNailSupplies/objNailSupplies.yy",},"order":3,},
     {"id":{"name":"sprDogMarleyWalk","path":"sprites/sprDogMarleyWalk/sprDogMarleyWalk.yy",},"order":3,},
     {"id":{"name":"sprRightMap","path":"sprites/sprRightMap/sprRightMap.yy",},"order":3,},
     {"id":{"name":"sprDogPortrait","path":"sprites/sprDogPortrait/sprDogPortrait.yy",},"order":1,},
     {"id":{"name":"wall","path":"sprites/wall/wall.yy",},"order":16,},
+    {"id":{"name":"objCollars","path":"objects/objCollars/objCollars.yy",},"order":4,},
     {"id":{"name":"sprDrBonesLeft","path":"sprites/sprDrBonesLeft/sprDrBonesLeft.yy",},"order":11,},
     {"id":{"name":"sprGreenBG","path":"sprites/sprGreenBG/sprGreenBG.yy",},"order":4,},
     {"id":{"name":"sprDogRossPortrait","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"order":1,},
@@ -79,6 +81,7 @@
     {"id":{"name":"sprScruffyPortrait","path":"sprites/sprScruffyPortrait/sprScruffyPortrait.yy",},"order":2,},
     {"id":{"name":"sprKennelRoss","path":"sprites/sprKennelRoss/sprKennelRoss.yy",},"order":6,},
     {"id":{"name":"RightResidents","path":"rooms/RightResidents/RightResidents.yy",},"order":4,},
+    {"id":{"name":"objSageThings","path":"objects/objSageThings/objSageThings.yy",},"order":2,},
     {"id":{"name":"sprDrBonesBack","path":"sprites/sprDrBonesBack/sprDrBonesBack.yy",},"order":10,},
     {"id":{"name":"transparentSprite","path":"sprites/transparentSprite/transparentSprite.yy",},"order":7,},
     {"id":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},"order":0,},

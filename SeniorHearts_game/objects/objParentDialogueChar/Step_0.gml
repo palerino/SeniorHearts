@@ -3,10 +3,7 @@ if (scr_isNear(objPlayer)) {
 	//Create a textbox if it hasn't been created yet
 	if(keyboard_check_pressed(vk_space)) {
 		
-		totalHearts = objGameManager.scruffyHearts;
-		objGameManager.talkedWithScruffy = true;
-		
-		//Add player info here, like the following:
+		//Add player info here in child objects, like the following:
 		//totalHearts = objGameManager.scruffyHearts;
 		//objGameManager.talkedWithScruffy = true;
 		
@@ -19,18 +16,10 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.portrait = thirdPortrait;
 				characterTextbox.charName = thirdNames;
 			} else if (totalHearts == 1) {
-				if(objGameManager.marleyStressRelieversFound) { //second dialogue with options
-					characterTextbox.text = secondDialogueTest;
-					characterTextbox.heartDisplay = sprHeartDisplay2;
-					characterTextbox.portrait = secondPortrait;
-					characterTextbox.charName = secondNames;
-					characterTextbox.dialogueOptions = secondDialogueOptions;
-				} else { //regular second dialogue
 					characterTextbox.text = secondDialogue;			
 					characterTextbox.heartDisplay = sprHeartDisplay2;
 					characterTextbox.portrait = secondPortrait;
 					characterTextbox.charName = secondNames;
-				}
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;

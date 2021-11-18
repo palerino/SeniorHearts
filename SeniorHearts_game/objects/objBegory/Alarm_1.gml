@@ -1,6 +1,6 @@
 
 if(correctChoice){
-	objGameManager.scruffyHearts++;
+	objGameManager.begoryHearts++;
 	correctChoice = false;
 }
 characterTextbox = noone;

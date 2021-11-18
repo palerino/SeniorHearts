@@ -1,9 +1,11 @@
 /// @description
 event_inherited();
+characterTextbox = noone;
 characterName = "Scruffy";
 characterPortrait = sprScruffyPortrait;
 characterOverhang = sprDogPortraitOverlay;
 totalHearts = 0;
+correctChoice = false;
 
 firstDialogue[0] = "Hey Doc. I know it's been a hard day for you. These things are never easy.";
 firstDialogue[1] = "Ay, those are my lines. How are you holding up, Scruffy?";
@@ -30,7 +32,7 @@ firstNames[6] = objPlayer.characterName;
 ////To activate the next dialogue, talk with every other main dog
 
 //Dialogue and portrait arrays for second interaction
-secondDialogue[0] = "Oh hey doc, how are things?";
+secondDialogue[0] = "Hey Scruffy, how are things?";
 secondDialogue[1] = "I'm doing fine, no need to worry about me. I've seen plenty of these instances throughout the years, especially here.";
 secondDialogue[2] = "There comes a point where it just becomes the norm.";
 secondDialogue[3] = "Well I'm glad you're doing okay, but I'm sure you still must be feeling a bit down.";
@@ -38,26 +40,22 @@ secondDialogue[4] = "Are you sure there is nothing you would like?";
 secondDialogue[5] = "Well, whenever I was feeling down as a pup I would love eating this special kind of kibble out of my shiny bowl. It reminded me of my old owners.";
 secondDialogue[6] = "I'm not sure what you would be able to do about that, though.";
 secondDialogue[7] = "I'm sure I can come up with something. Let me look around.";
-secondPortrait[0] = characterPortrait;
-secondPortrait[1] = objPlayer.portrait;
+secondPortrait[0] = objPlayer.portrait;
+secondPortrait[1] = characterPortrait;
 secondPortrait[2] = characterPortrait;
-secondPortrait[3] = characterPortrait;
+secondPortrait[3] = objPlayer.portrait;
 secondPortrait[4] = objPlayer.portrait;
-secondPortrait[5] = objPlayer.portrait;
-secondPortrait[6] = objPlayer.portrait;
-secondPortrait[7] = characterPortrait;
-secondPortrait[8] = objPlayer.portrait;
-secondPortrait[9] = characterPortrait;
-secondNames[0] = characterName;
-secondNames[1] = objPlayer.characterName;
+secondPortrait[5] = characterPortrait;
+secondPortrait[6] = characterPortrait;
+secondPortrait[7] = objPlayer.portrait;
+secondNames[0] = objPlayer.characterName;
+secondNames[1] = characterName;
 secondNames[2] = characterName;
-secondNames[3] = characterName;
+secondNames[3] = objPlayer.characterName;
 secondNames[4] = objPlayer.characterName;
-secondNames[5] = objPlayer.characterName;
-secondNames[6] = objPlayer.characterName;
-secondNames[7] = characterName;
-secondNames[8] = objPlayer.characterName;
-secondNames[9] = characterName;
+secondNames[5] = characterName;
+secondNames[6] = characterName;
+secondNames[7] = objPlayer.characterName;
 ////To activate next dialogue, find the Food Supplies somewhere in the map
 //Option 1: Special Kibble + heart
 secondDialogue1[0] = "Oh wow! I can't believe you found it! This surely takes me back.";
@@ -74,6 +72,12 @@ secondDialogue2[0] = "Oh wow, this is almost just like the one I used to have. G
 secondPortrait2[0] = characterPortrait;
 secondNames2[0] = characterName;
 
+secondDialogueOptions[0] = secondDialogue1; // first option
+secondDialogueOptions[1] = secondNames1;
+secondDialogueOptions[2] = secondPortrait1;
+secondDialogueOptions[3] = secondDialogue2; //second option
+secondDialogueOptions[4] = secondNames2;
+secondDialogueOptions[5] = secondPortrait2;
 ////To activate next dialogue, give Special Kibble to Scruffy from the previous options
 
 thirdDialogue[0] = "Oh no Scruffy, what's wrong? You look terrible!";
@@ -110,6 +114,13 @@ thirdNames1[2] = characterName;
 thirdDialogue2[0] = "Oh? This is sweet! I'm still bummed about my painting being destroyed, though...";
 thirdPortrait2[0] = characterPortrait;
 thirdNames2[0] = characterName;
+
+thirdDialogueOptions[0] = thirdDialogue1; // first option
+thirdDialogueOptions[1] = thirdNames1;
+thirdDialogueOptions[2] = thirdPortrait1;
+thirdDialogueOptions[3] = thirdDialogue2; //second option
+thirdDialogueOptions[4] = thirdNames2;
+thirdDialogueOptions[5] = thirdPortrait2;
 
 ////To activate next dialogue, Talk with Dog Marley in previous event
 
@@ -154,6 +165,13 @@ fourthNames2[0] = characterName;
 fourthNames2[1] = objPlayer.characterName;
 fourthNames2[2] = characterName;
 fourthNames2[3] = characterName;
+
+fourthDialogueOptions[0] = fourthDialogue1; // first option
+fourthDialogueOptions[1] = fourthNames1;
+fourthDialogueOptions[2] = fourthPortrait1;
+fourthDialogueOptions[3] = fourthDialogue2; //second option
+fourthDialogueOptions[4] = fourthNames2;
+fourthDialogueOptions[5] = fourthPortrait2;
 
 ////To activate next dialogue, Cover hard corners with foam from the previous options
 

@@ -5,18 +5,21 @@ talkedWithScruffy = false;
 talkedWithBegory = false;
 talkedWithDogRoss = false;
 talkedWithDogMarley = false;
-introductionPhase = false;
+introductionPhase = true;
 
-scruffyHearts = 1;
-begoryHearts = 1;
-dogRossHearts = 1;
-dogMarleyHearts = 1;
+scruffyHearts = 0;
+begoryHearts = 0;
+dogRossHearts = 0;
+dogMarleyHearts = 0;
 
 
 // Scruffy-specific event variables
 scruffyKibbleFound = false;
 
 
+//Begory-specific event variables
+begoryNailSuppliesFound = false;
+begoryCollarsFound = false;
 // Marley-specific event variables
 marleyStressRelieversFound = false;
-marleyDialogueOptions2 = false;
+marleySageThingsFound = false;

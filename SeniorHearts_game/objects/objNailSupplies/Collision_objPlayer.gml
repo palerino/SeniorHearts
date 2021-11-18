@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-objGameManager.marleyStressRelieversFound = true;
+objGameManager.begoryNailSuppliesFound = true;
 instance_destroy();
 

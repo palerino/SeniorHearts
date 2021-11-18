@@ -10,12 +10,11 @@ if(keyboard_check_pressed(vk_up)){
 
 if(keyboard_check_pressed(vk_space)) {
 	if(is_array(text[page])) { // if a dialogue option
-		
-		
-		if(choice == 0) { //first option selected
+		if(choice == 0) { //first option selected, default correct one for now
 			text = dialogueOptions[0]; //dialogue array
 			charName = dialogueOptions[1]; //names array
 			portrait = dialogueOptions[2]; //portrait array
+			creator.correctChoice = true;
 		} else { //second option selected
 			text = dialogueOptions[3]; //dialogue array
 			charName = dialogueOptions[4]; //names array

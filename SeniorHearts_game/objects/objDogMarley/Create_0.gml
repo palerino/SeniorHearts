@@ -1,13 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
-
+characterTextbox = noone;
 characterName = "Dog Marley";
 characterPortrait = sprDogMarleyPortrait;
 characterOverhang = sprDogPortraitOverlay;
 totalHearts = 0;
+correctChoice = false;
 
 firstDialogue[0] = "Hi Marley, I just wanted to come check on you.";
 firstDialogue[1] = "Oh hey, dude! I'm actually on my way to go hang out with Sage, she promised me a date by the fountain, so I'll catch you later.";
@@ -78,8 +75,8 @@ secondNames[9] = characterName;
 ////To activate next dialogue, find the Stress Relievers somewhere in the map
 //Option 1: Calming Treats + heart
 
-secondDialogueTest[0] = "Did you find something?";
-secondDialogueTest[1] = ["Give Calming Treats", "Give Stress Ball"];
+secondDialogueChoice[0] = "Did you find something?";
+secondDialogueChoice[1] = ["Give Calming Treats", "Give Stress Ball"];
 //secondDialogueTest[2] = "Oh thank you, Doc! You really know me! I can always count on you.";
 
 secondDialogue1[0] = "Oh thank you, Doc! You really know me! I can always count on you.";
@@ -105,10 +102,11 @@ thirdDialogue[2] = "Why wouldn't I feel better? Life is as chipper as can be!";
 thirdDialogue[3] = "...";
 thirdDialogue[4] = "Marley, do you remember what happened last night?";
 thirdDialogue[5] = "What do you mean? Like going to bed?";
-thirdDialogue[6] = "Dog Marley.";
-thirdDialogue[7] = "We had to put Sage down.";
+thirdDialogue[6] = "We had to put Sage down.";
+thirdDialogue[7] = "You keep forgetting.";
 thirdDialogue[8] = "I know this is hard for you to take in, but you need to understand this.";
-thirdDialogue[9] = "Wow, that's… that's a lot to take in. I'm not sure what to say.";
+thirdDialogue[9] = "Wow, that's... that's a lot to take in. I'm not sure what to say.";
+thirdDialogue[10] = ["Comfort", "Give Stress Relievers"];
 thirdPortrait[0] = characterPortrait;
 thirdPortrait[1] = objPlayer.portrait;
 thirdPortrait[2] = characterPortrait;
@@ -119,6 +117,7 @@ thirdPortrait[6] = objPlayer.portrait;
 thirdPortrait[7] = objPlayer.portrait;
 thirdPortrait[8] = objPlayer.portrait;
 thirdPortrait[9] = characterPortrait;
+thirdPortrait[10] = objPlayer.portrait;
 thirdNames[0] = characterName;
 thirdNames[1] = objPlayer.characterName;
 thirdNames[2] = characterName;
@@ -129,6 +128,8 @@ thirdNames[6] = objPlayer.characterName;
 thirdNames[7] = objPlayer.characterName;
 thirdNames[8] = objPlayer.characterName;
 thirdNames[9] = characterName;
+thirdNames[10] = objPlayer.characterName;
+
 //Option 1: Talk + heart
 thirdDialogue1[0] = "You don't have to say anything. Losing someone, especially your partner, is heartbreaking.";
 thirdDialogue1[1] = "It's not going to be easy, but there are ways to get through this.";
@@ -159,6 +160,13 @@ thirdNames2[0] = characterName;
 thirdNames2[1] = characterName;
 thirdNames2[2] = characterName;
 
+thirdDialogueOptions[0] = thirdDialogue1; // first option
+thirdDialogueOptions[1] = thirdNames1;
+thirdDialogueOptions[2] = thirdPortrait1;
+thirdDialogueOptions[3] = thirdDialogue2; //second option
+thirdDialogueOptions[4] = thirdNames2;
+thirdDialogueOptions[5] = thirdPortrait2;
+
 ////To activate next dialogue, Talk with Dog Marley in previous event
 
 fourthDialogue[0] = "Marley are you okay? You're shaking.";
@@ -174,6 +182,7 @@ fourthNames[1] = characterName;
 fourthNames[2] = characterName;
 fourthNames[3] = objPlayer.characterName;
 ////To activate next dialogue, find Sage's Things
+fourthDialogueChoice[0] = ["Give Sage's Beanie", "Give Sage's Blanket"];
 //Option 1: Give Sage's Beanie + heart
 fourthDialogue1[0] = "Wow, this was her favorite thing.";
 fourthDialogue1[1] = "She never let me wear it, but I don't think she'd be mad at me now.";
@@ -195,6 +204,14 @@ fourthDialogue2[0] = "Thanks, Doc. I loved to cuddle up with her on this blanket
 fourthDialogue2[1] = "I wish I had something else of hers, though.";
 fourthPortrait2[0] = characterPortrait;
 fourthNames2[0] = characterName;
+
+fourthDialogueOptions[0] = fourthDialogue1; // first option
+fourthDialogueOptions[1] = fourthNames1;
+fourthDialogueOptions[2] = fourthPortrait1;
+fourthDialogueOptions[3] = fourthDialogue2; //second option
+fourthDialogueOptions[4] = fourthNames2;
+fourthDialogueOptions[5] = fourthPortrait2;
+
 
 ////To activate next dialogue, Give Sage's Beanie from the previous options
 
