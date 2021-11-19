@@ -44,7 +44,7 @@ firstNames[10] = objPlayer.characterName;
 //Dialogue and portrait arrays for second interaction
 secondDialogue[0] = "Hey there Doc, how's it hanging?";
 secondDialogue[1] = "Hey Marley, I'm doing as good as one can. Just making my rounds. Anything you need from me?";
-secondDialogue[2] = "Ah actually, It's been really hard to lose Sage, I can't believe she's actually gone.";
+secondDialogue[2] = "Ah actually, it's been really hard to lose Sage, I can't believe she's actually gone.";
 secondDialogue[3] = "I just... I thought we had more time.";
 secondDialogue[4] = "I know this is hard, but Sage was in a lot of pain.";
 secondDialogue[5] = "Heart disease is horrible to go through, it was the only way we could get her some relief.";
@@ -153,11 +153,11 @@ thirdNames1[5] = characterName;
 thirdDialogue2[0] = "Here are some lavender and chamomile oils. They help with stress and anxiety. You can put them on your bed or your paws to help you relax.";
 thirdDialogue2[1] = "I know it won't fix anything, but it can help you with your grieving.";
 thirdDialogue2[2] = "Well, I'll try it... This is still a lot to take in, I think I need something else.";
-thirdPortrait2[0] = characterPortrait;
-thirdPortrait2[1] = characterPortrait;
+thirdPortrait2[0] = objPlayer.portrait;
+thirdPortrait2[1] = objPlayer.portrait;
 thirdPortrait2[2] = characterPortrait;
-thirdNames2[0] = characterName;
-thirdNames2[1] = characterName;
+thirdNames2[0] = objPlayer.characterName;
+thirdNames2[1] = objPlayer.characterName;
 thirdNames2[2] = characterName;
 
 thirdDialogueOptions[0] = thirdDialogue1; // first option
@@ -203,7 +203,9 @@ fourthNames1[4] = characterName;
 fourthDialogue2[0] = "Thanks, Doc. I loved to cuddle up with her on this blanket. I'm glad to have it right now.";
 fourthDialogue2[1] = "I wish I had something else of hers, though.";
 fourthPortrait2[0] = characterPortrait;
+fourthPortrait2[1] = characterPortrait;
 fourthNames2[0] = characterName;
+fourthNames2[1] = characterName;
 
 fourthDialogueOptions[0] = fourthDialogue1; // first option
 fourthDialogueOptions[1] = fourthNames1;

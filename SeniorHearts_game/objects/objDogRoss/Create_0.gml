@@ -99,10 +99,10 @@ thirdNames[4] = objPlayer.characterName;
 //Option 1: Get Dog Ross a Kiddie Pool + heart
 thirdDialogue1[0] = "This is wonderful! I've really been missing the water since I can't swim like I used to.";
 thirdDialogue1[1] = "Thank you, Doc! This is perfect.";
-thirdPortrait1[0] = objPlayer.portrait;
-thirdPortrait1[1] = objPlayer.portrait;
-thirdNames1[0] = objPlayer.characterName;
-thirdNames1[1] = objPlayer.characterName;
+thirdPortrait1[0] = characterPortrait;
+thirdPortrait1[1] = characterPortrait;
+thirdNames1[0] = characterName;
+thirdNames1[1] = characterName;
 //Option 2: Give Dog Ross a Fan, no heart
 thirdDialogue2[0] = "Oh great idea, this will help.";
 thirdDialogue2[1] = "Is there anything else, though? My fur traps a lot of heat, so I don't think a fan is enough. Sorry!";
