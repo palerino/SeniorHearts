@@ -15,12 +15,26 @@ dogMarleyHearts = 0;
 //Ross-specific event variables
 rossNighttimeSuppliesFound = false;
 
+nighttimeSuppliesNo = true;
+
 // Scruffy-specific event variables
 scruffyFoodSuppliesFound = false;
+scruffyFoamFound = false;
+scruffyPaintingSupplies = false;
+
+foodSuppliesNo = true;
+foamNo = true;
+paintingSupplies = true;
 
 //Begory-specific event variables
 begoryNailSuppliesFound = false;
 begoryCollarsFound = false;
+
+nailSuppliesNo = true;
+collarsNo = true;
 // Marley-specific event variables
 marleyStressRelieversFound = false;
 marleySageThingsFound = false;
+
+stressRelieversNo = true;
+sageThingsNo = true;

@@ -19,7 +19,7 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.charName = fifthNames;
 
 			} else if (totalHearts == 3) {
-				
+				objGameManager.nighttimeSuppliesNo = false; 
 				if(objGameManager.rossNighttimeSuppliesFound) {
 					characterTextbox.text = fourthDialogueChoice;
 					characterTextbox.heartDisplay = sprHeartDisplay4;
@@ -39,12 +39,14 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.portrait = thirdPortrait;
 				characterTextbox.charName = thirdNames;
 				characterTextbox.dialogueOptions = thirdDialogueOptions;
+				
 			} else if (totalHearts == 1) {				
 				characterTextbox.text = secondDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay2;
 				characterTextbox.portrait = secondPortrait;
 				characterTextbox.charName = secondNames;
 				characterTextbox.dialogueOptions = secondDialogueOptions;
+				
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;

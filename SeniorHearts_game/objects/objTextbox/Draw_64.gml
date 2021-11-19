@@ -30,7 +30,6 @@ if(!is_array(text[page])){ //if current page isn't an array, continue as if it's
 } else { // dialogue options
 	
 	var text_array = text[page];
-	var i = 0;
 	var y_add = 40;
 	
 	//print both options

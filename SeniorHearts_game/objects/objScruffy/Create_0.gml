@@ -57,10 +57,11 @@ secondNames[5] = characterName;
 secondNames[6] = characterName;
 secondNames[7] = objPlayer.characterName;
 ////To activate next dialogue, find the Food Supplies somewhere in the map
+secondDialogueChoice[0] = ["Give Special Kibble", "Give Shiny New Bowl"];
 //Option 1: Special Kibble + heart
 secondDialogue1[0] = "Oh wow! I can't believe you found it! This surely takes me back.";
-secondDialogue1[0] = "Now this is a real meal. I had it all the time with my old owners when I was a wee pup.";
-secondDialogue1[0] = "Thank you for finding this.";
+secondDialogue1[1] = "Now this is a real meal. I had it all the time with my old owners when I was a wee pup.";
+secondDialogue1[2] = "Thank you for finding this.";
 secondNames1[0] = characterName;
 secondNames1[1] = characterName;
 secondNames1[2] = characterName;
@@ -69,8 +70,8 @@ secondPortrait1[1] = characterPortrait;
 secondPortrait1[2] = characterPortrait;
 //Option 2: Shiny New Bowl, no heart
 secondDialogue2[0] = "Oh wow, this is almost just like the one I used to have. Got anything else, Doc?";
-secondPortrait2[0] = characterPortrait;
-secondNames2[0] = characterName;
+secondPortrait2[1] = characterPortrait;
+secondNames2[2] = characterName;
 
 secondDialogueOptions[0] = secondDialogue1; // first option
 secondDialogueOptions[1] = secondNames1;
@@ -78,6 +79,7 @@ secondDialogueOptions[2] = secondPortrait1;
 secondDialogueOptions[3] = secondDialogue2; //second option
 secondDialogueOptions[4] = secondNames2;
 secondDialogueOptions[5] = secondPortrait2;
+
 ////To activate next dialogue, give Special Kibble to Scruffy from the previous options
 
 thirdDialogue[0] = "Oh no Scruffy, what's wrong? You look terrible!";
@@ -98,9 +100,10 @@ thirdNames[2] = objPlayer.characterName;
 thirdNames[3] = characterName;
 thirdNames[4] = characterName;
 thirdNames[5] = objPlayer.characterName;
-
+//Find painting supplies to proceed
+thirdDialogueChoice[0] = ["Give new painting", "Give nice clay bowl"];
 //Option 1: Create a new painting + heart
-thirdDialogue1[0] = "Hey doc! I got Dog Ross to make you a new painting. It's a ton of puppies playing.";
+thirdDialogue1[0] = "Hey doc! I found one of Dog Ross' paintings and I think you'll like it. It's a ton of puppies playing.";
 thirdDialogue1[0] = "Oh my goodness, this is wonderful.";
 thirdDialogue1[1] = "Well Dog Gummit, I wish I could fully see this sweet picture. My eyes don't work like they used to anymore.";
 thirdDialogue1[2] = "This makes up for losing my other painting. I know the perfect place for it. I'll have to thank Dog Ross when I next see him. Thank you too, Doc!";
@@ -141,7 +144,9 @@ fourthNames[0] = objPlayer.characterName;
 fourthNames[1] = characterName;
 fourthNames[2] = characterName;
 fourthNames[3] = objPlayer.characterName;
-////To activate next dialogue, Soft Foam
+
+////To activate next dialogue, find Soft Foam
+thirdDialogueChoice[0] = ["Cover hard corners with foam", "Create halo ring out of foam"];
 //Option 1: Cover hard corners with foam
 fourthDialogue1[0] = "What's this?! Is this because of today? Or… many days.";
 fourthDialogue1[1] = "Thank you, I can still find my way around but I'm sure this will help me not knock my noggin' as much. It ain't even that embarrasing, either.";

@@ -24,7 +24,9 @@ if (scr_isNear(objPlayer)) {
 					characterTextbox.dialogueOptions = fourthDialogueOptions;
 				
 			} else if(totalHearts == 2) {
-				if(objGameManager.begoryNailSuppliesFound) {
+				objGameManager.collarsNo = false;
+				
+				if(objGameManager.begoryCollarsFound) {
 					characterTextbox.text = thirdDialogueChoice;
 					characterTextbox.heartDisplay = sprHeartDisplay3;
 					characterTextbox.portrait = thirdPortrait;
@@ -37,6 +39,8 @@ if (scr_isNear(objPlayer)) {
 					characterTextbox.charName = thirdNames;
 				}
 			} else if (totalHearts == 1) {
+				
+				objGameManager.nailSuppliesNo = false;
 				
 				if(objGameManager.begoryNailSuppliesFound){
 					characterTextbox.text = secondDialogueChoice;

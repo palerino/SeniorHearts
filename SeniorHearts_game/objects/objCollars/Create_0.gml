@@ -1,5 +1,5 @@
 //If the stress relievers has already been picked up, don't respawn it
-if(objGameManager.begoryCollarsFound)
+if(objGameManager.begoryCollarsFound || objGameManager.collarsNo)
 {
 	instance_destroy();
 }

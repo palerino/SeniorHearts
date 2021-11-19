@@ -16,6 +16,7 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.charName = fifthNames;
 
 			} else if (totalHearts == 3) {
+				objGameManager.sageThingsNo = false; 
 				
 				if(objGameManager.marleySageThingsFound){
 					characterTextbox.text = fourthDialogueChoice;
@@ -37,6 +38,8 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.charName = thirdNames;
 				characterTextbox.dialogueOptions = thirdDialogueOptions;
 			} else if (totalHearts == 1) {
+
+				objGameManager.stressRelieversNo = false;
 				
 				if(objGameManager.marleyStressRelieversFound){
 					characterTextbox.text = secondDialogueChoice;

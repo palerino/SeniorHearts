@@ -123,7 +123,7 @@ fourthDialogue[0] = "Hello, Doc. I wanted to ask you about something.";
 fourthDialogue[1] = "Of course, what can I do for you?";
 fourthDialogue[2] = "Well, I've been having some trouble sleeping.";
 fourthDialogue[3] = "It seems like no matter what position I'm in, I wake up in pain, and it's becoming more difficult to sleep through the night.";
-fourthDialogue[4] = "That's not good, but luckily, I know how to help you.";
+fourthDialogue[4] = "That's not good, but luckily, I know how to help you. I'll be right back.";
 fourthPortrait[0] = characterPortrait;
 fourthPortrait[1] = objPlayer.portrait;
 fourthPortrait[2] = characterPortrait;
@@ -136,7 +136,7 @@ fourthNames[3] = characterName;
 fourthNames[4] = objPlayer.characterName;
 
 //To unlock the following options, find Nighttime Supplies somewhere in the map
-
+fourthDialogueChoice[0] = ["Give a new bed", "Give sleeping medication"];
 //Option 1: A New Bed + heart
 fourthDialogue1[0] = "Oh wow, this is so soft!";
 fourthDialogue1[1] = "I'm sure this will be much better, thank you.";
