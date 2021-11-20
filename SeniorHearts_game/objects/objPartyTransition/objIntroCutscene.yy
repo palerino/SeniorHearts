@@ -25,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Text Objects",
-    "path": "folders/Objects/Text Objects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objIntroCutscene2",
+  "name": "objIntroCutscene",
   "tags": [],
   "resourceType": "GMObject",
 }

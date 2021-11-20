@@ -54,13 +54,17 @@ if (scr_isNear(objPlayer)) {
 					characterTextbox.portrait = secondPortrait;
 					characterTextbox.charName = secondNames;
 				}
+			} else if (totalHearts == -1) { //Not adopted
+					characterTextbox.text = unadoptedDialogue;
+					characterTextbox.heartDisplay = transparentSprite;
+					characterTextbox.charName = characterName;
+					characterTextbox.portrait = characterPortrait;	
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;
 				characterTextbox.portrait = firstPortrait;
 				characterTextbox.charName = firstNames;
 			}
-			
 			characterTextbox.creator = self;
 			characterTextbox.portraitOverhang = characterOverhang;
 		}

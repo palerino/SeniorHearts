@@ -2,10 +2,19 @@
 
 //Draw the dog portrait before the textbox, assuming there is one
 if (portrait != noone) {
-	draw_sprite(portrait[page], 0, xPortrait, yPortrait);
+	
+	//DRAW PORTRAIT
+	if (portrait != noone) {
+		if(is_array(portrait)) { //if its an array of portraits
+			draw_sprite(portrait[page], 0, xPortrait, yPortrait); //PORTRAIT
+			xHeartDisplay = sprite_get_width(portrait[page]) + xPortrait + xBuffer; //find x val for HEART DISPLAY
+		} else { //just a single portrait
+			draw_sprite(portrait, 0, xPortrait, yPortrait); //PORTRAIT
+			xHeartDisplay = sprite_get_width(portrait) + xPortrait + xBuffer; //find x val for HEART DISPLAY
+		}
+	}
 	
 	//Draw heart display
-	xHeartDisplay = sprite_get_width(portrait[page]) + xPortrait + xBuffer;
 	draw_sprite(heartDisplay, 0, xHeartDisplay, yHeartDisplay);
 }
 
@@ -15,15 +24,22 @@ if (portrait != noone) {
 draw_sprite(textbox, 0, xTextbox, yTextbox);
 
 if(!is_array(text[page])){ //if current page isn't an array, continue as if it's regular text
-
-	if (charName != noone) { 	//draw the name
-		draw_text(xTextbox + xBuffer/2, yTextbox + yBuffer/2, charName[page]);
+	
+	//DRAW NAME
+	if (charName != noone) {
+		if(is_array(charName)) { //if name is given as an array 
+			draw_text(xTextbox + xBuffer/2, yTextbox + yBuffer/2, charName[page]);
+		} else { //name is given as just a string
+			draw_text(xTextbox + xBuffer/2, yTextbox + yBuffer/2, charName);
+		}
 	}
 
+	//TEXT SPEED
 	if (charCount < string_length(text[page])) {
 		charCount += 1; //change to determine letter speed of dialogue, 0 < n < 1 for slower and n > 1 for faster
 	}
-	//draw the dialogue
+
+	//DRAW DIALOGUE
 	textPart = string_copy(text[page], 1, charCount);
 	draw_text_ext(xTextbox + xBuffer, yTextbox + stringHeight + yBuffer/4, textPart, stringHeight, boxWidth);
 

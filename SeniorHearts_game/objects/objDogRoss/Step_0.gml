@@ -48,6 +48,11 @@ if (scr_isNear(objPlayer)) {
 				characterTextbox.charName = secondNames;
 				characterTextbox.dialogueOptions = secondDialogueOptions;
 				
+			} else if (totalHearts == -1) { //Not adopted
+				characterTextbox.text = unadoptedDialogue;
+				characterTextbox.heartDisplay = transparentSprite;
+				characterTextbox.charName = characterName;
+				characterTextbox.portrait = characterPortrait;	
 			} else {
 				characterTextbox.text = firstDialogue;
 				characterTextbox.heartDisplay = sprHeartDisplay1;

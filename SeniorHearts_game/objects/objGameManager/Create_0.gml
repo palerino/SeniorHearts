@@ -5,8 +5,10 @@ talkedWithBegory = false;
 talkedWithDogRoss = false;
 talkedWithDogMarley = false;
 introductionPhase = true;
+endingUndecided = true;
+duringEnding = false; 
 
-scruffyHearts = 3;
+scruffyHearts = 0;
 begoryHearts = 0;
 dogRossHearts = 0;
 dogMarleyHearts = 0;
@@ -36,3 +38,4 @@ marleySageThingsFound = false;
 
 stressRelieversNo = true;
 sageThingsNo = true;
+

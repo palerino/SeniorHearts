@@ -29,7 +29,7 @@
     "path": "folders/Objects/Text Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objIntroCutscene2",
+  "name": "objPartyTransition",
   "tags": [],
   "resourceType": "GMObject",
 }
