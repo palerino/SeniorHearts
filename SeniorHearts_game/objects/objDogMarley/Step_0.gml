@@ -10,6 +10,7 @@ if (scr_isNear(objPlayer)) {
 			characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
 
 			if(totalHearts == 4 || totalHearts > 4) {
+				objGameManager.dogMarleyHearts = 5;
 				characterTextbox.text = fifthDialogue; 
 				characterTextbox.heartDisplay = sprHeartDisplay5;
 				characterTextbox.portrait = fifthPortrait;

@@ -82,6 +82,7 @@
     {"id":{"name":"scr_isNear","path":"scripts/scr_isNear/scr_isNear.yy",},"order":2,},
     {"id":{"name":"sprDrBonesPortrait","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"order":4,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
+    {"id":{"name":"EndingTransition","path":"rooms/EndingTransition/EndingTransition.yy",},"order":8,},
     {"id":{"name":"objDogMarley","path":"objects/objDogMarley/objDogMarley.yy",},"order":4,},
     {"id":{"name":"sprFenceSide","path":"sprites/sprFenceSide/sprFenceSide.yy",},"order":11,},
     {"id":{"name":"objDogRoss","path":"objects/objDogRoss/objDogRoss.yy",},"order":3,},
@@ -123,6 +124,7 @@
     {"roomId":{"name":"RightResidents","path":"rooms/RightResidents/RightResidents.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"IntroScreen2","path":"rooms/IntroScreen2/IntroScreen2.yy",},},
+    {"roomId":{"name":"EndingTransition","path":"rooms/EndingTransition/EndingTransition.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -7,7 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 34,
+  "bbox_left": -7,
   "bbox_right": 214,
   "bbox_top": 136,
   "bbox_bottom": 232,
