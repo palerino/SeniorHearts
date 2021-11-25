@@ -46,7 +46,7 @@ secondDialogue[4] = "Ross, it sounds like you might be facing some anxiety.";
 secondDialogue[5] = "It's common to experience anxiety when in pain, especially considering your age and circumstances.";
 secondDialogue[6] = "Oh, wow. I had no idea. Is there anything to help with that?";
 secondDialogue[7] = "There is. Let's try this.";
-secondDialogue[8] = ["Give a Calming Coat", "Try Music Therapy"];
+secondDialogue[8] = ["Give a New Paint Set", "Try Music Therapy"];
 secondPortrait[0] = characterPortrait;
 secondPortrait[1] = objPlayer.portrait;
 secondPortrait[2] = characterPortrait;
@@ -67,7 +67,7 @@ secondNames[7] = objPlayer.characterName;
 secondNames[8] = objPlayer.characterName;
 ////Dialogue options
 //Option 1: Give a Calming Coat + heart
-secondDialogue1[0] = "This feels great. I can already feel myself calming down.";
+secondDialogue1[0] = "Oh wow, this is fantastic! I love the colors. You really know that painting calms me down.";
 secondNames1[0] = characterName;
 secondPortrait1[0] = characterPortrait;
 //Option 2: Music Therapy, no heart
@@ -100,7 +100,7 @@ thirdNames[2] = characterName;
 thirdNames[3] = objPlayer.characterName;
 thirdNames[4] = objPlayer.characterName;
 //Option 1: Get Dog Ross a Kiddie Pool + heart
-thirdDialogue1[0] = "This is wonderful! I've really been missing the water since I can't swim like I used to.";
+thirdDialogue1[0] = "This is wonderful! I've really been missing the water since I can't swim as well with this old body.";
 thirdDialogue1[1] = "Thank you, Doc! This is perfect.";
 thirdPortrait1[0] = characterPortrait;
 thirdPortrait1[1] = characterPortrait;

@@ -215,7 +215,7 @@ adoptedNames[2] = characterName;
 
 ////Not adopted dialogue
 unadoptedDialogue[0] = "I'm so happy to see one of us getting out of here. They really deserve this.";
-unadoptedDialogue[1] = "I hope they're treat well, and they better send us some photos when they get to their new home!";
+unadoptedDialogue[1] = "I hope they're treated well, and they better send us some photos when they get to their new home!";
 unadoptedPortrait[0] = characterPortrait;
 unadoptedPortrait[1] = characterPortrait;
 unadoptedNames[0] = characterName;

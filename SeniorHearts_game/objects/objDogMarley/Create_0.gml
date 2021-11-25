@@ -104,7 +104,7 @@ thirdDialogue[4] = "Marley, do you remember what happened last night?";
 thirdDialogue[5] = "What do you mean? Like going to bed?";
 thirdDialogue[6] = "We had to put Sage down.";
 thirdDialogue[7] = "You keep forgetting.";
-thirdDialogue[8] = "I know this is hard for you to take in, but you need to understand this.";
+thirdDialogue[8] = "I know this is hard for you, but you need to understand this.";
 thirdDialogue[9] = "Wow, that's... that's a lot to take in. I'm not sure what to say.";
 thirdDialogue[10] = ["Comfort", "Give Stress Relievers"];
 thirdPortrait[0] = characterPortrait;
@@ -200,7 +200,7 @@ fourthNames1[2] = characterName;
 fourthNames1[3] = characterName;
 fourthNames1[4] = characterName;
 //Option 2: Give Sage's Blanket, no heart
-fourthDialogue2[0] = "Thanks, Doc. I loved to cuddle up with her on this blanket. I'm glad to have it right now.";
+fourthDialogue2[0] = "Uh, thanks Doc. Sage really liked this blanket, but I don't know if it'll really work for my ears.";
 fourthDialogue2[1] = "I wish I had something else of hers, though.";
 fourthPortrait2[0] = characterPortrait;
 fourthPortrait2[1] = characterPortrait;
@@ -218,7 +218,7 @@ fourthDialogueOptions[5] = fourthPortrait2;
 ////To activate next dialogue, Give Sage's Beanie from the previous options
 
 fifthDialogue[0] = "Wow Doc, I just want to let you know you've really helped me out here.";
-fifthDialogue[1] = "It doesn't feel real that Sage is gone, but I'm glad to have you.";
+fifthDialogue[1] = "It doesn't feel real that Sage is gone, but I'm glad you've been there for me.";
 fifthDialogue[2] = "I don't know what I would've done without you to lean on.";
 fifthPortrait[0] = characterPortrait;
 fifthPortrait[1] = characterPortrait;
@@ -229,7 +229,7 @@ fifthNames[2] = characterName;
 
 ////Gets adopted dialogue
 adoptedDialogue[0] = "You're kidding me, right? Am I seriously getting adopted? This is wild.";
-adoptedDialogue[1] = "I really didn't think this would ever happen. I just wish Sage were here with me.";
+adoptedDialogue[1] = "I really didn't think this would ever happen. I just wish Sage was here with me.";
 adoptedPortrait[0] = characterPortrait;
 adoptedPortrait[1] = characterPortrait;
 adoptedNames[0] = characterName;
