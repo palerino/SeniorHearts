@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayBtn",
-    "path": "sprites/sprPlayBtn/sprPlayBtn.yy",
+    "name": "sprTempBackArrow",
+    "path": "sprites/sprTempBackArrow/sprTempBackArrow.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/TitleScreenButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayButton",
+  "name": "objBackArrow",
   "tags": [],
   "resourceType": "GMObject",
 }

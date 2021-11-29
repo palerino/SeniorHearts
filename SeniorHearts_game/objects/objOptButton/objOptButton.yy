@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayBtn",
-    "path": "sprites/sprPlayBtn/sprPlayBtn.yy",
+    "name": "sprOptionBtn",
+    "path": "sprites/sprOptionBtn/sprOptionBtn.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/TitleScreenButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayButton",
+  "name": "objOptButton",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayBtn",
-    "path": "sprites/sprPlayBtn/sprPlayBtn.yy",
+    "name": "sprInstBtn",
+    "path": "sprites/sprInstBtn/sprInstBtn.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/TitleScreenButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayButton",
+  "name": "objInstrButton",
   "tags": [],
   "resourceType": "GMObject",
 }

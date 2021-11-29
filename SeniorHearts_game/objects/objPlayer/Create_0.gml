@@ -3,8 +3,8 @@ portrait = sprDrBonesPortrait;
 portraitOverhang = sprDrBonesPortraitO
 
 //temporary resizing
-//image_xscale *= 0.5;
-//image_yscale *= 0.5;
+image_xscale *= 0.9;
+image_yscale *= 0.9;
 
 // Movement
 spd = 6;
