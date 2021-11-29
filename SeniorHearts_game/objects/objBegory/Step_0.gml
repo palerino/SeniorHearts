@@ -10,8 +10,13 @@ if (scr_isNear(objPlayer)) {
 		if(characterTextbox == noone) {
 			characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
 
-			if(totalHearts == 4 || totalHearts > 4) {
-				objGameManager.begoryHearts = 5;
+			if(totalHearts == 5 || totalHearts > 5) { //adopted dialogue
+				characterTextbox.text = adoptedDialogue; 
+				characterTextbox.heartDisplay = sprHeartDisplay5;
+				characterTextbox.portrait = adoptedPortrait;
+				characterTextbox.charName = adoptedNames;
+			} else if(totalHearts == 4) {
+				objGameManager.finalTalk = true;
 				characterTextbox.text = fifthDialogue; 
 				characterTextbox.heartDisplay = sprHeartDisplay5;
 				characterTextbox.portrait = fifthPortrait;

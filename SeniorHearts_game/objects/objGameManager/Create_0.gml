@@ -5,8 +5,8 @@ talkedWithBegory = false;
 talkedWithDogRoss = false;
 talkedWithDogMarley = false;
 introductionPhase = true;
-endingUndecided = true;
-duringEnding = false; 
+duringEnding = false;
+finalTalk = false;
 
 scruffyHearts = 0;
 begoryHearts = 0;
