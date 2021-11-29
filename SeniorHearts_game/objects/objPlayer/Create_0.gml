@@ -2,8 +2,6 @@ characterName = "Dr. Bones";
 portrait = sprDrBonesPortrait;
 portraitOverhang = sprDrBonesPortraitO
 
-walkSprite = sprDrBonesFront;
-
 //temporary resizing
 //image_xscale *= 0.5;
 //image_yscale *= 0.5;

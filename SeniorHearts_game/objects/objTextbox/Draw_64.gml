@@ -7,10 +7,8 @@ if (portrait != noone) {
 	if (portrait != noone) {
 		if(is_array(portrait)) { //if its an array of portraits
 			draw_sprite(portrait[page], 0, xPortrait, yPortrait); //PORTRAIT
-			xHeartDisplay = sprite_get_width(portrait[page]) + xPortrait + xBuffer; //find x val for HEART DISPLAY
 		} else { //just a single portrait
 			draw_sprite(portrait, 0, xPortrait, yPortrait); //PORTRAIT
-			xHeartDisplay = sprite_get_width(portrait) + xPortrait + xBuffer; //find x val for HEART DISPLAY
 		}
 	}
 	
@@ -58,10 +56,4 @@ if(!is_array(text[page])){ //if current page isn't an array, continue as if it's
 		draw_text_ext_colour(xTextbox + xBuffer, yTextbox + stringHeight + yBuffer/4 + y_add, text_array[1], stringHeight, boxWidth, c, c, c, c, 1);
 	}
 	
-}
-
-
-//Draw the top overhang part of the dog portrait
-if (portraitOverhang != noone) {
-	draw_sprite(portraitOverhang, 0, xPortrait, yPortrait);
 }

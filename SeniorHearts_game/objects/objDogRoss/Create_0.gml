@@ -62,7 +62,7 @@ secondNames[2] = characterName;
 secondNames[3] = characterName;
 secondNames[4] = objPlayer.characterName;
 secondNames[5] = objPlayer.characterName;
-secondNames[6] = characterPortrait;
+secondNames[6] = characterName;
 secondNames[7] = objPlayer.characterName;
 secondNames[8] = objPlayer.characterName;
 ////Dialogue options

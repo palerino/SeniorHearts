@@ -2,7 +2,6 @@
 textbox = sprTextboxTemp;
 heartDisplay = noone;
 portrait = noone; //this should be set to an array of sprites at some point
-portraitOverhang = noone;
 page = 0;
 charCount = 0;
 creator = noone;
@@ -12,7 +11,6 @@ yBuffer = 20;
 choice = 0;
 c = c_teal;
 dialogueOptions = noone;
-correctDialogue = false;
 text = "This text is from objTextbox. This is default text.";
 
 //Draw Text with text wrapping along the textbox
@@ -27,5 +25,5 @@ yTextbox = objGameManager.gameWindowHeight - sprite_get_height(textbox) - yBuffe
 xPortrait = xTextbox;
 yPortrait = yTextbox;
 
-xHeartDisplay = 0;
-yHeartDisplay = yTextbox - yBuffer;
+xHeartDisplay = sprite_get_width(textbox) - sprite_get_width(sprHeartDisplay1) - xBuffer;
+yHeartDisplay = yTextbox + yBuffer;
