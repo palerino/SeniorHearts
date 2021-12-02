@@ -42,7 +42,7 @@ secondDialogue[4] = "Are you sure there is nothing you would like?";
 secondDialogue[5] = "Well, whenever I was feeling down as a pup I would love eating this special kind of kibble out of my shiny bowl. It reminded me of my old owners.";
 secondDialogue[6] = "I'm not sure what you would be able to do about that, though.";
 secondDialogue[7] = "I'm sure I can come up with something. Let me look around.";
-secondPortrait[0] = objPlayer.portrait;
+secondPortrait[0] = objPlayer.sadPortrait;
 secondPortrait[1] = characterPortrait;
 secondPortrait[2] = characterSad;
 secondPortrait[3] = objPlayer.sadPortrait;
@@ -87,9 +87,9 @@ secondDialogueOptions[5] = secondPortrait2;
 thirdDialogue[0] = "Oh no Scruffy, what's wrong? You look terrible!";
 thirdDialogue[1] = "Well, a small tussle was happening earlier, and they ended up bumping into the side of my kennel and spraying water everywhere.";
 thirdDialogue[2] = "Oh no that's awful! Are you okay?";
-thirdDialogue[3] = "Yeah I'm fine. It's just unfortunate that this happened. I've had some of this since before living here, like this painting. I don't think anyone can replace it.";
+thirdDialogue[3] = "Yeah I'm fine, but the water ruined this painting I had since I was with my last family. I don't think anyone can replace it.";
 thirdDialogue[4] = "If anything, you should check up on the other dogs and make sure they're not injured at all.";
-thirdDialogue[5] = "I will, but first wait here. I'll be right back.";
+thirdDialogue[5] = "I will, but first wait here. I'll find something to cheer you up.";
 thirdPortrait[0] = objPlayer.portrait;
 thirdPortrait[1] = characterSad;
 thirdPortrait[2] = objPlayer.sadPortrait;
@@ -103,22 +103,28 @@ thirdNames[3] = characterName;
 thirdNames[4] = characterName;
 thirdNames[5] = objPlayer.characterName;
 //Find painting supplies to proceed
-thirdDialogueChoice[0] = ["Give new painting", "Give nice clay bowl"];
-//Option 1: Create a new painting + heart
-thirdDialogue1[0] = "Hey doc! I found one of Dog Ross' paintings and I think you'll like it. It's a ton of puppies playing.";
-thirdDialogue1[1] = "Oh my goodness, this is wonderful.";
+thirdDialogueChoice[0] = ["Give painting of puppies", "Give painting of beautiful scenery"];
+//Option 1: Give a painting of puppies + heart
+thirdDialogue1[0] = "Do you think this painting can compare to your last one, Scruffy? Dog Ross painted a ton of puppies playing.";
+thirdDialogue1[1] = "Oh my goodness! This is wonderful.";
 thirdDialogue1[2] = "Well Dog Gummit, I wish I could fully see this sweet picture. My eyes don't work like they used to anymore.";
-thirdDialogue1[3] = "This makes up for losing my other painting. I know the perfect place for it. I'll have to thank Dog Ross when I next see him. Thank you too, Doc!";
+thirdDialogue1[3] = "Before I lost my last home, my master bought a new puppy. She was such a cute and tiny lad, and she brought me so much joy.";
+thirdDialogue1[4] = "She reminded me of the good ole days when I was more alive and kickin'. She was such a bundle of energy!";
+thirdDialogue1[5] = "I know the perfect place for this painting. I'll have to thank Dog Ross when I next see him. Thank you too, Doc!";
 thirdPortrait1[0] = objPlayer.portrait;
 thirdPortrait1[1] = characterSurprise;
 thirdPortrait1[2] = characterSad;
 thirdPortrait1[3] = characterPortrait;
+thirdPortrait1[4] = characterPortrait;
+thirdPortrait1[5] = characterPortrait;
 thirdNames1[0] = objPlayer.characterName;
 thirdNames1[1] = characterName;
 thirdNames1[2] = characterName;
 thirdNames1[3] = characterName;
-//Option 2: Give a nice Clay Bowl
-thirdDialogue2[0] = "Oh? This is sweet! I'm still bummed about my painting being destroyed, though...";
+thirdNames1[4] = characterName;
+thirdNames1[5] = characterName;
+//Option 2: Give painting of beautiful scenery
+thirdDialogue2[0] = "Oh, what's this? It's pretty, but I'm still bummed about my last painting... It reminded me of home.";
 thirdPortrait2[0] = characterPortrait;
 thirdNames2[0] = characterName;
 

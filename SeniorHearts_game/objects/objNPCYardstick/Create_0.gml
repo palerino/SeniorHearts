@@ -3,7 +3,7 @@
 
 characterTextbox = noone;
 characterName = "Yardstick";
-characterPortrait = sprNPCYardstick;
+characterPortrait = transparentSprite;
 correctChoice = false;
 
 firstNames[0] = characterName;

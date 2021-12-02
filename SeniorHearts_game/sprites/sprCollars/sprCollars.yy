@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "BackgroundAssets",
-    "path": "folders/Sprites/BackgroundAssets.yy",
+    "name": "Pickups",
+    "path": "folders/Sprites/Pickups.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprCollars",

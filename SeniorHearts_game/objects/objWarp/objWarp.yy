@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprWarp",
-    "path": "sprites/sprWarp/sprWarp.yy",
+    "name": "transparentSprite",
+    "path": "sprites/transparentSprite/transparentSprite.yy",
   },
   "solid": false,
   "visible": true,

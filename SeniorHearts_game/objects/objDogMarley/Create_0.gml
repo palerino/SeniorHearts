@@ -204,11 +204,8 @@ fourthNames1[3] = characterName;
 fourthNames1[4] = characterName;
 //Option 2: Give Sage's Blanket, no heart
 fourthDialogue2[0] = "Uh, thanks Doc. Sage really liked this blanket, but I don't know if it'll really work for my ears.";
-fourthDialogue2[1] = "I wish I had something else of hers, though.";
 fourthPortrait2[0] = characterPortrait;
-fourthPortrait2[1] = characterPortrait;
 fourthNames2[0] = characterName;
-fourthNames2[1] = characterName;
 
 fourthDialogueOptions[0] = fourthDialogue1; // first option
 fourthDialogueOptions[1] = fourthNames1;
@@ -223,16 +220,19 @@ fourthDialogueOptions[5] = fourthPortrait2;
 fifthDialogue[0] = "Wow Doc, I just want to let you know you've really helped me out here.";
 fifthDialogue[1] = "It doesn't feel real that Sage is gone, but I'm glad you've been there for me.";
 fifthDialogue[2] = "I don't know what I would've done without you to lean on.";
+fifthDialogue[3] = "I have to get ready for the meetup with potential adopters, but thank you for everything!";
 fifthPortrait[0] = characterPortrait;
 fifthPortrait[1] = characterPortrait;
 fifthPortrait[2] = characterPortrait;
+fifthPortrait[3] = characterPortrait;
 fifthNames[0] = characterName;
 fifthNames[1] = characterName;
 fifthNames[2] = characterName;
+fifthNames[3] = characterName;
 
 ////Gets adopted dialogue
 adoptedDialogue[0] = "You're kidding me, right? Am I seriously getting adopted? This is wild.";
-adoptedDialogue[1] = "I really didn't think this would ever happen. I just wish Sage was here with me.";
+adoptedDialogue[1] = "I really didn't think this would ever happen. I just wish Sage was here with me to celebrate.";
 adoptedPortrait[0] = characterPortrait;
 adoptedPortrait[1] = characterPortrait;
 adoptedNames[0] = characterName;
