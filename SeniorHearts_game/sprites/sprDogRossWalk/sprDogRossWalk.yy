@@ -24,24 +24,56 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b50f2e97-bce1-4e17-884e-82a970d75adc","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b50f2e97-bce1-4e17-884e-82a970d75adc","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"9b6a9869-f02a-4f48-b3e7-3668823c4a8b","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"b50f2e97-bce1-4e17-884e-82a970d75adc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7363b16f-d938-4cc2-9f9e-2e228a7884b3","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7363b16f-d938-4cc2-9f9e-2e228a7884b3","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"7363b16f-d938-4cc2-9f9e-2e228a7884b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"abb604d8-d42f-4c75-bf6c-9f3694fd60d4","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"abb604d8-d42f-4c75-bf6c-9f3694fd60d4","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"abb604d8-d42f-4c75-bf6c-9f3694fd60d4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"17cb84fa-e084-4b53-b976-64329fb14dae","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"17cb84fa-e084-4b53-b976-64329fb14dae","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"17cb84fa-e084-4b53-b976-64329fb14dae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2fc565fc-025f-4c52-af2a-6f4b13f352da","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2fc565fc-025f-4c52-af2a-6f4b13f352da","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"2fc565fc-025f-4c52-af2a-6f4b13f352da","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"567700d8-d053-4641-b743-029c7cfa98c4","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"567700d8-d053-4641-b743-029c7cfa98c4","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"567700d8-d053-4641-b743-029c7cfa98c4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fd799798-d282-44a8-816f-be4d71f4c567","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fd799798-d282-44a8-816f-be4d71f4c567","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"fd799798-d282-44a8-816f-be4d71f4c567","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"807fb08d-7684-49f5-b11e-bcbd7a601dd8","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"807fb08d-7684-49f5-b11e-bcbd7a601dd8","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"807fb08d-7684-49f5-b11e-bcbd7a601dd8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8731f308-95e2-4496-aab5-40cf51dd09d8","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8731f308-95e2-4496-aab5-40cf51dd09d8","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"8731f308-95e2-4496-aab5-40cf51dd09d8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e7e3faa7-1d20-401a-b37b-22366f462aff","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e7e3faa7-1d20-401a-b37b-22366f462aff","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"LayerId":{"name":"01a61f61-033d-47ef-9869-79cc3c5e2185","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","name":"e7e3faa7-1d20-401a-b37b-22366f462aff","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 9.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"94ce5f57-31f5-4110-ac00-6bd176662a1b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b50f2e97-bce1-4e17-884e-82a970d75adc","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"75cd844c-c59a-4dba-aca3-898c5ba68fd9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7363b16f-d938-4cc2-9f9e-2e228a7884b3","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9bc8289d-955b-4d2d-8d20-49064dc592a6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"abb604d8-d42f-4c75-bf6c-9f3694fd60d4","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f61b340b-91db-453f-a126-b14cee1e98e2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"17cb84fa-e084-4b53-b976-64329fb14dae","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce38ffae-1185-42e1-9cf8-ce66b1453422","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2fc565fc-025f-4c52-af2a-6f4b13f352da","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b0281a93-d1cc-41ad-b706-6184e146b20a","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"567700d8-d053-4641-b743-029c7cfa98c4","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f0631e93-eb12-4a30-b860-f043c8c7e1c0","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd799798-d282-44a8-816f-be4d71f4c567","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1c85ccbe-44ba-428d-949a-fd835962d4ab","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"807fb08d-7684-49f5-b11e-bcbd7a601dd8","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"76893ca5-7bd4-48ac-9bec-d757b069106f","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8731f308-95e2-4496-aab5-40cf51dd09d8","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3d5270d5-11e8-45df-ad94-cacd5e1c08c5","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7e3faa7-1d20-401a-b37b-22366f462aff","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +97,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9b6a9869-f02a-4f48-b3e7-3668823c4a8b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"01a61f61-033d-47ef-9869-79cc3c5e2185","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

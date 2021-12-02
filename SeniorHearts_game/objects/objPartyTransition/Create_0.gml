@@ -17,6 +17,9 @@ text[1] = "Dr. Bones spent the rest of their day reviewing data and taking care 
 text[2] = "However, before heading home for the day...";
 text[3] = "One of your friends was adopted, and they had a going-away party!"
 
+audio_stop_all();
+audio_play_sound(titleThemeQuiet, 1, true);
+
 characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
 characterTextbox.text = text;
 characterTextbox.heartDisplay = transparentSprite;

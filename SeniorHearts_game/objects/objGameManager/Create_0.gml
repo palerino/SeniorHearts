@@ -39,3 +39,5 @@ marleySageThingsFound = false;
 stressRelieversNo = true;
 sageThingsNo = true;
 
+audio_play_sound(titleTheme, 1, true);
+

@@ -1,5 +1,6 @@
 characterName = "Dr. Bones";
 portrait = sprDrBonesPortrait;
+sadPortrait = sprDrBonesSad;
 portraitOverhang = sprDrBonesPortraitO
 
 //temporary resizing

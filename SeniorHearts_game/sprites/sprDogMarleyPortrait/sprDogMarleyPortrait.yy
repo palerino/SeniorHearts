@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"db952d42-9bbd-467c-9765-573a359ddefb","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"db952d42-9bbd-467c-9765-573a359ddefb","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"LayerId":{"name":"b0942a84-051c-472d-bb7e-cbc261b65bb2","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprDogMarleyPortrait","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"resourceVersion":"1.0","name":"db952d42-9bbd-467c-9765-573a359ddefb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"951fa03a-3ddf-4a9a-ae86-a5d0d4cf9f4f","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"951fa03a-3ddf-4a9a-ae86-a5d0d4cf9f4f","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"LayerId":{"name":"6db65e81-6d5d-4949-9c91-26722969a8e5","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogMarleyPortrait","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"resourceVersion":"1.0","name":"951fa03a-3ddf-4a9a-ae86-a5d0d4cf9f4f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprDogMarleyPortrait","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ccd5e137-aebd-4a0e-b924-7fffa6e179e9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db952d42-9bbd-467c-9765-573a359ddefb","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"6500dace-048b-4959-a886-68191a5db59b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"951fa03a-3ddf-4a9a-ae86-a5d0d4cf9f4f","path":"sprites/sprDogMarleyPortrait/sprDogMarleyPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0942a84-051c-472d-bb7e-cbc261b65bb2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6db65e81-6d5d-4949-9c91-26722969a8e5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

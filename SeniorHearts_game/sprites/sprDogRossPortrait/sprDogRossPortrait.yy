@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2676fcd5-2aac-452a-8b1e-4b50660d6847","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2676fcd5-2aac-452a-8b1e-4b50660d6847","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"LayerId":{"name":"66fa0352-3fb5-4b14-9723-fd09b2f7533c","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprDogRossPortrait","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"resourceVersion":"1.0","name":"2676fcd5-2aac-452a-8b1e-4b50660d6847","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a87a238b-f12a-4b5d-aee2-afa4eb1d8ce0","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a87a238b-f12a-4b5d-aee2-afa4eb1d8ce0","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"LayerId":{"name":"f1400bf9-d1db-46b0-9239-c2d8dedcfab5","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDogRossPortrait","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"resourceVersion":"1.0","name":"a87a238b-f12a-4b5d-aee2-afa4eb1d8ce0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprDogRossPortrait","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8939a4f9-9e20-45af-ab31-f9f8c463a8af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2676fcd5-2aac-452a-8b1e-4b50660d6847","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"2e30dfc8-e42e-47a9-b805-983d1c98b2ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a87a238b-f12a-4b5d-aee2-afa4eb1d8ce0","path":"sprites/sprDogRossPortrait/sprDogRossPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66fa0352-3fb5-4b14-9723-fd09b2f7533c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1400bf9-d1db-46b0-9239-c2d8dedcfab5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
