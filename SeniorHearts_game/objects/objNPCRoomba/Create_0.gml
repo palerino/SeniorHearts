@@ -24,7 +24,7 @@ firstPortrait[3] = characterPortrait;
 //Dialogue and portrait arrays for second interaction
 secondNames[0] = characterName;
 secondNames[1] = characterName;
-secondDialogue[0] = "Ay, not everyone's a boxer fan, I get it.";
-secondDialogue[1] = "I'm glad someone's getting adopted, but they sure are missing out on me!";
+secondDialogue[0] = "Wha? What's going on?";
+secondDialogue[1] = "Is this a party? Did someone find the dog food?";
 secondPortrait[0] = characterPortrait;
 secondPortrait[1] = characterPortrait;

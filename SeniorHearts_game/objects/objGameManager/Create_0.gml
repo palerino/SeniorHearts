@@ -11,7 +11,7 @@ finalTalk = false;
 scruffyHearts = 0;
 begoryHearts = 0;
 dogRossHearts = 0;
-dogMarleyHearts = 0;
+dogMarleyHearts = 3;
 
 //Ross-specific event variables
 rossNighttimeSuppliesFound = false;

@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parCollide",
-    "path": "objects/parCollide/parCollide.yy",
+    "name": "parDepthObj",
+    "path": "objects/parDepthObj/parDepthObj.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

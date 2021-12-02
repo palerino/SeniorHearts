@@ -1,3 +1,3 @@
 targetRoom = LeftResidents;
-targetX = 1467;
+targetX = 1667;
 targetY = 990;

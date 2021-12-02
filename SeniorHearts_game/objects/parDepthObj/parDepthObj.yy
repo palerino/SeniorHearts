@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "parCollide",
+    "path": "objects/parCollide/parCollide.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
