@@ -81,6 +81,7 @@
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":3,},
     {"id":{"name":"objStressRelievers","path":"objects/objStressRelievers/objStressRelievers.yy",},"order":15,},
     {"id":{"name":"sprBegoryPortrait","path":"sprites/sprBegoryPortrait/sprBegoryPortrait.yy",},"order":0,},
+    {"id":{"name":"sprBegoryLol","path":"sprites/sprBegoryLol/sprBegoryLol.yy",},"order":15,},
     {"id":{"name":"objSageThings","path":"objects/objSageThings/objSageThings.yy",},"order":14,},
     {"id":{"name":"sprDogRossWalk","path":"sprites/sprDogRossWalk/sprDogRossWalk.yy",},"order":5,},
     {"id":{"name":"objFoodSupplies","path":"objects/objFoodSupplies/objFoodSupplies.yy",},"order":10,},
@@ -213,7 +214,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "SeniorHearts",
