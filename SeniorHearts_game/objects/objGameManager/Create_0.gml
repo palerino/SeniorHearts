@@ -41,3 +41,8 @@ sageThingsNo = true;
 
 audio_play_sound(titleTheme, 1, true);
 
+globalvar vol;
+vol = 1.0;
+audio_master_gain(vol);
+
+

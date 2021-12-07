@@ -3,3 +3,4 @@
 layer_set_visible("Options", true);
 layer_set_visible("BackArrow", true);
 layer_set_visible("TitleBtns", false);
+layer_set_visible("SoundBtns", true);
