@@ -142,7 +142,7 @@ fourthNames[4] = objPlayer.characterName;
 //To unlock the following options, find Nighttime Supplies somewhere in the map
 fourthDialogueChoice[0] = ["Give a new bed", "Give sleeping medication"];
 //Option 1: A New Bed + heart
-fourthDialogue1[0] = "Oh wow, this is so soft!";
+fourthDialogue1[0] = "Oh wow, this is so soft! I'm sure this will beat the devil out of my pain.";
 fourthDialogue1[1] = "I'm sure this will be much better, thank you.";
 fourthPortrait1[0] = characterPortrait;
 fourthPortrait1[1] = characterPortrait;

@@ -26,6 +26,7 @@ characterPortrait[20] = transparentSprite;
 text[0] = "lol the end!";
 
 if(objGameManager.begoryHearts == 5) { //Begory adoption ending
+layer_set_visible("Begory", visible);
 text[0] = "Congrats! Begory found their final forever home!";
 text[1] = "Begory's new owners are ready to support their extra needs and health issues as a senior dog.";
 text[2] = "Just like with Begory, some dogs need extra patience to overcome their hardships. If a shelter animal had a neglectful or difficult background, they may be fearful or hostile towards potential adopters.";
@@ -36,7 +37,7 @@ text[6] = "Just a little extra love and care helps a dog show their true colors.
 text[7] = "Congrats on saving Begory! How many other dogs can you save?";
 
 } else if(objGameManager.dogMarleyHearts == 5){ //Dog Marley adoption ending
-
+layer_set_visible("Marley", visible);
 text[0] = "Congrats! Dog Marley found her final forever home!";
 text[1] = "Dog Marley's new owners are ready to support her extra needs and health issues as a senior dog.";
 text[2] = "Dog Marley struggles with Canine Cognitive Dysfunction, which is also known as dog dementia.";
@@ -49,6 +50,7 @@ text[8] = "Congrats on saving Dog Marley! How many other dogs can you save?";
 
 } else if(objGameManager.dogRossHearts == 5){ //Dog Ross adoption ending
 //Senior dogs need extra love, attention, and medical care to keep them healthy.
+layer_set_visible("Ross", visible);
 text[0] = "Congrats! Dog Ross found his final forever home!";
 text[1] = "Dog Ross's new owners are ready to support his extra needs and health issues as a senior dog.";
 text[2] = "Dog Ross suffered from arthritis, which is a very common health condition in older dogs. They struggle to move around like they used to due to joint inflammation.";
@@ -60,6 +62,7 @@ text[7] = "Congrats on saving Dog Ross! How many other dogs can you save?";
 
 
 } else { //Scruffy adoption ending
+	layer_set_visible("Scruffy", visible);
 text[0] = "Congrats! Scruffy found his final forever home!";
 text[1] = "Scruffy's new owners are ready to support his extra needs and health issues as a senior dog.";
 text[2] = "Before his time at the sanctuary, Scruffy had the same family most of his life. However, their family preferred young and cute puppies, so he was surrendered to a shelter once he grew older.";
