@@ -10,7 +10,7 @@
   "bbox_left": 31,
   "bbox_right": 365,
   "bbox_top": 24,
-  "bbox_bottom": 378,
+  "bbox_bottom": 289,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dee27a7c-fedc-4bdb-9353-1be7ce653cfe","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dee27a7c-fedc-4bdb-9353-1be7ce653cfe","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"LayerId":{"name":"d4bfad30-8833-4cf0-9b37-82f36da8546c","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprDrBonesPortrait","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"resourceVersion":"1.0","name":"dee27a7c-fedc-4bdb-9353-1be7ce653cfe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"902c8e89-faa0-475e-ad10-bf731c5563ac","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"902c8e89-faa0-475e-ad10-bf731c5563ac","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"LayerId":{"name":"23dc750a-2863-4f50-9399-a619c5ff886f","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprDrBonesPortrait","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"resourceVersion":"1.0","name":"902c8e89-faa0-475e-ad10-bf731c5563ac","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprDrBonesPortrait","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d62cdc17-d9c4-45af-9f47-9f8f4fb82a89","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dee27a7c-fedc-4bdb-9353-1be7ce653cfe","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0eaf079c-a54a-49a0-a703-8ca8e95a254a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"902c8e89-faa0-475e-ad10-bf731c5563ac","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 283,
+    "yorigin": 288,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprDrBonesPortrait","path":"sprites/sprDrBonesPortrait/sprDrBonesPortrait.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d4bfad30-8833-4cf0-9b37-82f36da8546c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23dc750a-2863-4f50-9399-a619c5ff886f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

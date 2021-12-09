@@ -31,7 +31,7 @@ text[0] = "Congrats! Begory found their final forever home!";
 text[1] = "Begory's new owners are ready to support their extra needs and health issues as a senior dog.";
 text[2] = "Just like with Begory, some dogs need extra patience to overcome their hardships. If a shelter animal had a neglectful or difficult background, they may be fearful or hostile towards potential adopters.";
 text[3] = "Dogs with stubborn behavioral issues are very likely to be euthanized, especially older ones. Some of them will never get the chance to have a loving, nurturing home environment.";
-text[4] = "However, they’re the ones that need it the most, and saving them is so emotionally fulfilling for both pets and their owners.";
+text[4] = "However, they're the ones that need it the most, and saving them is so emotionally fulfilling for both pets and their owners.";
 text[5] = "Senior dog rescues save these gentle old souls from shelters and give them a second chance at reaching their forever homes.";
 text[6] = "Just a little extra love and care helps a dog show their true colors. They make lovely companions when given the chance!";
 text[7] = "Congrats on saving Begory! How many other dogs can you save?";
@@ -65,14 +65,21 @@ text[7] = "Congrats on saving Dog Ross! How many other dogs can you save?";
 	layer_set_visible("Scruffy", visible);
 text[0] = "Congrats! Scruffy found his final forever home!";
 text[1] = "Scruffy's new owners are ready to support his extra needs and health issues as a senior dog.";
-text[2] = "Before his time at the sanctuary, Scruffy had the same family most of his life. However, their family preferred young and cute puppies, so he was surrendered to a shelter once he grew older.";
-text[3] = "After growing up in a loving home, senior dogs adjust poorly to a shelter life as well. They can be overwhelmed and depressed, and their health can deteriorate very fast.";
-text[4] = "Senior dogs can die easily in the shelter system as well. The high-stress environment is too much for some senior dogs, so they’re desperately in need of a rescue, foster, or home to stay healthy.";
-text[5] = "Unfortunately, they're even less likely to be noticed by potential fosters or adopters when they seem so depressed. The shelter is likely to be their final home.";
-text[6] = "Many adopters overlook that senior dogs are usually socialized, housetrained, and much more low-maintenance than puppies. They deserve a home just like anyone else.";
-text[7] = "Just a little extra love and care helps a dog show their true colors. They make lovely companions when given the chance!";
-text[8] = "Congrats on saving Scruffy! How many other dogs can you save?";
+text[2] = "Before coming to the sanctuary, Scruffy had the same family most of his life. He lived perfectly with his owner and their other pets.";
+text[3] = "When his owner passed away, every pet was properly rehomed except for Scruffy. No one wanted a dog with his age and eye problems, so he was surrendered to the shelter.";
+text[4] = "After growing up in a loving home, senior dogs adjust poorly to a shelter life. They can be overwhelmed and depressed, and their health can deteriorate very fast.";
+text[5] = "Senior dogs can die easily in the shelter system as well. The high-stress environment is too much for some senior dogs, so they're desperately in need of a rescue, foster, or home to stay healthy.";
+text[6] = "Unfortunately, they're even less likely to be noticed by potential fosters or adopters when they seem so depressed. The shelter is likely to be their final home.";
+text[7] = "Many adopters overlook that senior dogs are usually socialized, housetrained, and much more low-maintenance than puppies. They deserve a home just like anyone else.";
+text[8] = "Just a little extra love and care helps a dog show their true colors. They make lovely companions when given the chance!";
+text[9] = "Congrats on saving Scruffy! How many other dogs can you save?";
+
 }
+
+
+
+
+
 
 characterTextbox = instance_create_layer(x,y,"Text", objTextbox);
 characterTextbox.text = text;

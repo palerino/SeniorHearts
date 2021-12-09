@@ -1,4 +1,7 @@
+//UI Stuff
 gameWindowHeight = window_get_height();
+titleScreenButtonsEnabled = true;
+
 
 talkedWithScruffy = false;
 talkedWithBegory = false;
@@ -7,6 +10,7 @@ talkedWithDogMarley = false;
 introductionPhase = true;
 duringEnding = false;
 finalTalk = false;
+
 
 scruffyHearts = 0;
 begoryHearts = 0;

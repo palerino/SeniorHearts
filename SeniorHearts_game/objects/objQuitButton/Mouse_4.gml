@@ -1,2 +1,4 @@
 ///Ends the game
- game_end();
+if(objGameManager.titleScreenButtonsEnabled){
+	game_end();
+}
