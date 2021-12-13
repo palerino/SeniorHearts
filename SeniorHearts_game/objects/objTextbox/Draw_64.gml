@@ -39,7 +39,12 @@ if(!is_array(text[page])){ //if current page isn't an array, continue as if it's
 
 	//DRAW DIALOGUE
 	textPart = string_copy(text[page], 1, charCount);
-	draw_text_ext(xTextbox + xBuffer, yTextbox + stringHeight + yBuffer/4, textPart, stringHeight, boxWidth);
+	//if namebox exists
+	if(charName != noone){
+		draw_text_ext(xTextbox + xBuffer, yTextbox + stringHeight + yBuffer/4, textPart, stringHeight, boxWidth);
+	} else {
+		draw_text_ext(xTextbox + xBuffer, yTextbox + stringHeight/3 + yBuffer/4, textPart, stringHeight, boxWidth);
+	}
 
 } else { // dialogue options
 	

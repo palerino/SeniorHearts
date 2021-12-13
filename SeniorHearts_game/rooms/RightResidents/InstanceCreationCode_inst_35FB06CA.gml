@@ -1,4 +1,4 @@
 
 targetRoom = ParkArea;
-targetX = 2135;
-targetY = 1000;
+targetX = 2100;
+targetY = 1050;

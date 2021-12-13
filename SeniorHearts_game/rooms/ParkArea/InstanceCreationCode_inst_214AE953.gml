@@ -1,3 +1,3 @@
 targetRoom = RightResidents;
-targetX = 478;
-targetY = 991;
+targetX = 600;
+targetY = 1225;
