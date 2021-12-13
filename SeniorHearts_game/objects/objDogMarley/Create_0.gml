@@ -2,9 +2,17 @@
 characterTextbox = noone;
 characterName = "Dog Marley";
 characterPortrait = sprDogMarleyPortrait;
+characterParty = sprMarleyParty;
 characterOverhang = sprDogPortraitOverlay;
 totalHearts = 0;
 correctChoice = false;
+
+/*
+if(objGameManager.duringEnding) {
+	sprite_index = sprBriefsParty;
+}
+*/
+
 
 firstDialogue[0] = "Hi Marley, I just wanted to come check on you.";
 firstDialogue[1] = "Oh hey, dude! I'm actually on my way to go hang out with Sage, she promised me a date by the fountain, so I'll catch you later.";
@@ -233,12 +241,12 @@ fifthNames[3] = characterName;
 ////Gets adopted dialogue
 adoptedDialogue[0] = "You're kidding me, right? Am I seriously getting adopted? This is wild.";
 adoptedDialogue[1] = "I really didn't think this would ever happen. I just wish Sage was here with me to celebrate.";
-adoptedPortrait[0] = characterPortrait;
-adoptedPortrait[1] = characterPortrait;
+adoptedPortrait[0] = characterParty;
+adoptedPortrait[1] = characterParty;
 adoptedNames[0] = characterName;
 adoptedNames[1] = characterName;
 
 ////Not adopted dialogue
 unadoptedDialogue[0] = "It's awesome to see one of us older dogs finally get adopted. I hope they'll be happy at their new home.";
-unadoptedPortrait[0] = characterPortrait;
+unadoptedPortrait[0] = characterParty;
 unadoptedNames[0] = characterName;

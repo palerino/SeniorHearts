@@ -5,9 +5,16 @@ characterName = "Scruffy";
 characterPortrait = sprScruffyPortrait;
 characterSad = sprScruffySad;
 characterSurprise = sprScruffySurprised;
+characterParty = sprScruffyParty;
 characterOverhang = sprDogPortraitOverlay;
 totalHearts = 0;
 correctChoice = false;
+
+
+if(objGameManager.duringEnding) {
+	sprite_index = sprScruffyWalkParty;
+}
+
 
 firstDialogue[0] = "Hey Doc. I know it's been a hard day for you. These things are never easy.";
 firstDialogue[1] = "Ay, those are my lines. How are you holding up, Scruffy?";
@@ -214,9 +221,9 @@ fifthNames[2] = characterName;
 adoptedDialogue[0] = "I can't believe this. I never thought an old man like me would get this kind of ending.";
 adoptedDialogue[1] = "I know my old owner Jim is waiting for me on the other side, but that he's so happy I get to spend the rest of my years with such a loving family.";
 adoptedDialogue[2] = "Thank you so much for having me here throughout the years and looking out for me, even when I didn't need it.";
-adoptedPortrait[0] = characterSurprise;
-adoptedPortrait[1] = characterPortrait;
-adoptedPortrait[2] = characterPortrait;
+adoptedPortrait[0] = characterParty;
+adoptedPortrait[1] = characterParty;
+adoptedPortrait[2] = characterParty;
 adoptedNames[0] = characterName;
 adoptedNames[1] = characterName;
 adoptedNames[2] = characterName;
@@ -224,7 +231,7 @@ adoptedNames[2] = characterName;
 ////Not adopted dialogue
 unadoptedDialogue[0] = "I'm so happy to see one of us getting out of here. They really deserve this.";
 unadoptedDialogue[1] = "I hope they're treated well, and they better send us some photos when they get to their new home!";
-unadoptedPortrait[0] = characterPortrait;
-unadoptedPortrait[1] = characterPortrait;
+unadoptedPortrait[0] = characterParty;
+unadoptedPortrait[1] = characterParty;
 unadoptedNames[0] = characterName;
 unadoptedNames[1] = characterName;

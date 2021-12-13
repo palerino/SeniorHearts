@@ -7,9 +7,17 @@ characterTextbox = noone;
 characterName = "Dog Ross";
 characterPortrait = sprDogRossPortrait;
 characterSad = sprDogRossSad;
+characterParty = sprRossParty;
 characterOverhang = sprDogPortraitOverlay;
 totalHearts = 0;
 correctChoice = false;
+
+/*
+if(objGameManager.duringEnding) {
+	sprite_index = sprBriefsParty;
+}
+*/
+
 
 firstDialogue[0] = "Hey Dog Ross, I came to check up on you and to bring your arthritis medication.";
 firstDialogue[1] = "Oh thank you. My old bones will appreciate it. They've really been acting up lately.";
@@ -180,15 +188,15 @@ fifthNames[4] = characterName;
 ////Gets adopted dialogue
 adoptedDialogue[0] = "This is amazing. I must say I will miss this place, but I am really excited to see a bit more of the world in the rest of my time here.";
 adoptedDialogue[1] = "Thank you everyone for making this place a home to me. I will miss you all greatly.";
-adoptedPortrait[0] = characterPortrait;
-adoptedPortrait[1] = characterPortrait;
+adoptedPortrait[0] = characterParty;
+adoptedPortrait[1] = characterParty;
 adoptedNames[0] = characterName;
 adoptedNames[1] = characterName;
 
 ////Not adopted dialogue
 unadoptedDialogue[0] = "Look at that, one of us old folk is finally getting to experience something new.";
 unadoptedDialogue[1] = "I'm so excited that they have found a new family.";
-unadoptedPortrait[0] = characterPortrait;
-unadoptedPortrait[1] = characterPortrait;
+unadoptedPortrait[0] = characterParty;
+unadoptedPortrait[1] = characterParty;
 unadoptedNames[0] = characterName;
 unadoptedNames[1] = characterName;

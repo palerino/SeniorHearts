@@ -8,9 +8,16 @@ characterName = "Begory";
 characterPortrait = sprBegoryPortrait;
 characterSad = sprBegorySad;
 characterAnnoy = sprBegoryAnnoyed;
+characterParty = sprBegoryParty;
 characterOverhang = sprDrBonesPortraitO;
 totalHearts = 0;
 correctChoice = false;
+
+/*
+if(objGameManager.duringEnding) {
+	sprite_index = sprBriefsParty;
+}
+*/
 
 firstNames[0] = characterName;
 firstNames[1] = characterName;
@@ -197,9 +204,9 @@ fifthNames[4] = characterName;
 adoptedDialogue[0] = "Finally, a good family who sees how great I am to have around! I'll miss you all sometimes, minus the tiny kennel space.";
 adoptedDialogue[1] = "I can't wait to have a large yard to soak in the sun! And all the grooming I can ask for. Getting deshedded feels so nice, there is definitely not enough of it here."
 adoptedDialogue[2] = "I hope you all get to experience it one day.";
-adoptedPortrait[0] = characterPortrait;
-adoptedPortrait[1] = characterPortrait;
-adoptedPortrait[2] = characterPortrait;
+adoptedPortrait[0] = characterParty;
+adoptedPortrait[1] = characterParty;
+adoptedPortrait[2] = characterParty;
 adoptedNames[0] = characterName;
 adoptedNames[1] = characterName;
 adoptedNames[2] = characterName;
@@ -208,9 +215,9 @@ adoptedNames[2] = characterName;
 unadoptedDialogue[0] = "I'm glad they finally found a family to take them in.";
 unadoptedDialogue[1] = "I hope they're treated well, and by that I mean they get all the treats in the world.";
 unadoptedDialogue[2] = "They better not forget to ask for toy upgrades, too!";
-unadoptedPortrait[0] = characterPortrait;
-unadoptedPortrait[1] = characterPortrait;
-unadoptedPortrait[2] = characterPortrait;
+unadoptedPortrait[0] = characterParty;
+unadoptedPortrait[1] = characterParty;
+unadoptedPortrait[2] = characterParty;
 unadoptedNames[0] = characterName;
 unadoptedNames[1] = characterName;
 unadoptedNames[2] = characterName;

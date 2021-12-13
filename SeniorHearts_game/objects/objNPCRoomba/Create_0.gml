@@ -6,6 +6,10 @@ characterName = "Roomba";
 characterPortrait = transparentSprite;
 correctChoice = false;
 
+if(objGameManager.duringEnding) {
+	sprite_index = sprRoombaParty;
+}
+
 firstNames[0] = characterName;
 firstNames[1] = characterName;
 firstNames[2] = characterName;

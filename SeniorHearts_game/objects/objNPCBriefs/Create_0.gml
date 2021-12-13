@@ -6,6 +6,10 @@ characterName = "Briefs";
 characterPortrait = transparentSprite;
 correctChoice = false;
 
+if(objGameManager.duringEnding) {
+	sprite_index = sprBriefsParty;
+}
+
 firstNames[0] = characterName;
 firstNames[1] = characterName;
 firstNames[2] = characterName;

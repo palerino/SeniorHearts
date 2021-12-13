@@ -2,7 +2,6 @@
 gameWindowHeight = window_get_height();
 titleScreenButtonsEnabled = true;
 
-
 talkedWithScruffy = false;
 talkedWithBegory = false;
 talkedWithDogRoss = false;
@@ -11,8 +10,7 @@ introductionPhase = true;
 duringEnding = false;
 finalTalk = false;
 
-
-scruffyHearts = 0;
+scruffyHearts = 4;
 begoryHearts = 0;
 dogRossHearts = 0;
 dogMarleyHearts = 0;
