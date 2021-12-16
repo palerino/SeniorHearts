@@ -10,7 +10,7 @@ introductionPhase = true;
 duringEnding = false;
 finalTalk = false;
 
-scruffyHearts = 4;
+scruffyHearts = 0;
 begoryHearts = 0;
 dogRossHearts = 0;
 dogMarleyHearts = 0;
