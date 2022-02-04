@@ -12,12 +12,10 @@ if (scr_isNear(objPlayer)) {
 				itemTextbox.text = interact2; 
 				itemTextbox.heartDisplay = transparentSprite;
 				itemTextbox.portrait = transparentSprite;
-				itemTextbox.charName = "";
 			} else { //can interact with the item but cannot pick it up
 				itemTextbox.text = interact; 
 				itemTextbox.heartDisplay = transparentSprite;
 				itemTextbox.portrait = transparentSprite;
-				itemTextbox.charName = "";
 			}
 			itemTextbox.creator = self;
 		}
@@ -26,10 +24,5 @@ if (scr_isNear(objPlayer)) {
 	if(itemTextbox != noone) {
 		instance_destroy(itemTextbox);
 		itemTextbox = noone;
-		
-		if(!objGameManager.foamNo) {
-			objGameManager.scruffyFoamFound = true;
-			instance_destroy();
-		}
 	}
 }

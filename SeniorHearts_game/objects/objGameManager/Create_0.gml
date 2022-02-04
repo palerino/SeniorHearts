@@ -13,7 +13,7 @@ finalTalk = false;
 scruffyHearts = 0;
 begoryHearts = 0;
 dogRossHearts = 0;
-dogMarleyHearts = 0;
+dogMarleyHearts = 1;
 
 //Ross-specific event variables
 rossNighttimeSuppliesFound = false;
@@ -42,7 +42,6 @@ stressRelieversNo = true;
 sageThingsNo = true;
 
 audio_play_sound(titleTheme, 1, true);
-
 globalvar vol;
 vol = 1.0;
 audio_master_gain(vol);

@@ -41,7 +41,7 @@
     "spriteId": {"name":"sprCloud2","path":"sprites/sprCloud2/sprCloud2.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

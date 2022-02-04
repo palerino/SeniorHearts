@@ -13,6 +13,11 @@ c = c_teal;
 dialogueOptions = noone;
 text = "This text is from objTextbox. This is default text.";
 
+
+if(charName == noone) {
+	
+}
+
 //Draw Text with text wrapping along the textbox
 draw_set_font(dialogueFont);
 
