@@ -1,10 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-layer_set_visible("Instructions", false); 
-layer_set_visible("Options", false);
-layer_set_visible("Credits", false);
-layer_set_visible("BackArrow", false);
-layer_set_visible("TitleBtns", true);
-layer_set_visible("SoundBtns", false);
-objGameManager.titleScreenButtonsEnabled = true;
+image_xscale = clamp(image_xscale - 0.1, xScaleMin - 0.5, xScaleMin);
+image_yscale = clamp(image_yscale - 0.1, yScaleMin - 0.5, yScaleMin);
