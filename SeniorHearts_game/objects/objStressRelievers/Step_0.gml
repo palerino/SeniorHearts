@@ -3,6 +3,9 @@
 
 if (scr_isNear(objPlayer)) {	
 	//Create a textbox if it hasn't been created yet
+	
+	sprite_index = sprStressRelievers2;
+	
 	if(keyboard_check_pressed(vk_space)) {
 				
 		if(itemTextbox == noone) {
@@ -21,6 +24,7 @@ if (scr_isNear(objPlayer)) {
 		}
 	}
 } else {
+	sprite_index = sprStressRelievers;
 	if(itemTextbox != noone) {
 		instance_destroy(itemTextbox);
 		itemTextbox = noone;

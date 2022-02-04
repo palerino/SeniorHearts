@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 if (scr_isNear(objPlayer)) {	
+	sprite_index = sprPaintingSupplies2;
 	//Create a textbox if it hasn't been created yet
 	if(keyboard_check_pressed(vk_space)) {
 				
@@ -21,6 +22,7 @@ if (scr_isNear(objPlayer)) {
 		}
 	}
 } else {
+	sprite_index = sprPaintingSupplies;
 	if(itemTextbox != noone) {
 		instance_destroy(itemTextbox);
 		itemTextbox = noone;
